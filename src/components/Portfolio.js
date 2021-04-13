@@ -16,15 +16,31 @@ const Portfolio = () => {
     const openPopupboxNetflix = () => {
         const content = (
             <>
-                <img className="portfolio-image-popupbox" src={netflix} alt="Netflix Clone Project..."/>
+                <img 
+                    className="portfolio-image-popupbox" 
+                    src={netflix} 
+                    alt="Netflix Clone Project..."
+                />
                 <p>
                     Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
                     Quasi ipsa sint quis. Iure velit incidunt corporis alias 
                     aliquam repudiandae? Sed.
                 </p>
-                <b>Github:</b> 
-                <a className="hyper-link" onClick={() => window.open("https://github.com/DanielYankiver/rocket-fuel-frontend")}
-                >https://github.com/DanielYankiver/rocket-fuel-frontend</a>
+                <b>Demo: </b> 
+                <a 
+                    className="hyper-link" 
+                    onClick={() => window.open("https://github.com/DanielYankiver/rocket-fuel-frontend", "_blank")}
+                >
+                    https://github.com/DanielYankiver/rocket-fuel-frontend
+                </a>
+                <br/>
+                <b>Github: </b> 
+                <a 
+                    className="hyper-link" 
+                    onClick={() => window.open("https://github.com/DanielYankiver/rocket-fuel-frontend", "_blank")}
+                >
+                    https://github.com/DanielYankiver/rocket-fuel-frontend
+                </a>
             </>
         )
         PopupboxManager.open({ content })
@@ -34,6 +50,135 @@ const Portfolio = () => {
         titleBar: {
             enable: true,
             text: "Netflix Clone Project "
+        },
+        fadeIn: true,
+        fadeInSpeed: 500
+    }
+   
+    // City Guide App 
+    const openPopupboxCityGuide = () => {
+        const content = (
+            <>
+                <img 
+                    className="portfolio-image-popupbox" 
+                    src={cityGuide} 
+                    alt="City Guide Project..."
+                />
+                <p>
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
+                    Quasi ipsa sint quis. Iure velit incidunt corporis alias 
+                    aliquam repudiandae? Sed.
+                </p>
+                <b>Demo: </b> 
+                <a 
+                    className="hyper-link" 
+                    onClick={() => window.open("https://github.com/DanielYankiver/rocket-fuel-frontend", "_blank")}
+                >
+                    https://github.com/DanielYankiver/rocket-fuel-frontend
+                </a>
+                <br/>
+                <b>Github: </b> 
+                <a 
+                    className="hyper-link" 
+                    onClick={() => window.open("https://github.com/DanielYankiver/rocket-fuel-frontend", "_blank")}
+                >
+                    https://github.com/DanielYankiver/rocket-fuel-frontend
+                </a>
+            </>
+        )
+        PopupboxManager.open({ content })
+    }
+
+    const popupboxConfigCityGuide = {
+        titleBar: {
+            enable: true,
+            text: "City Guide Project "
+        },
+        fadeIn: true,
+        fadeInSpeed: 500
+    }
+    
+    // Portfolio Project
+    const openPopupboxPortfolio = () => {
+        const content = (
+            <>
+                <img 
+                    className="portfolio-image-popupbox" 
+                    src={portfolio} 
+                    alt="Portfolio Project..."
+                />
+                <p>
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
+                    Quasi ipsa sint quis. Iure velit incidunt corporis alias 
+                    aliquam repudiandae? Sed.
+                </p>
+                <b>Demo: </b> 
+                <a 
+                    className="hyper-link" 
+                    onClick={() => window.open("https://github.com/DanielYankiver/rocket-fuel-frontend", "_blank")}
+                >
+                    https://github.com/DanielYankiver/rocket-fuel-frontend
+                </a>
+                <br/>
+                <b>Github: </b> 
+                <a 
+                    className="hyper-link" 
+                    onClick={() => window.open("https://github.com/DanielYankiver/rocket-fuel-frontend", "_blank")}
+                >
+                    https://github.com/DanielYankiver/rocket-fuel-frontend
+                </a>
+            </>
+        )
+        PopupboxManager.open({ content })
+    }
+
+    const popupboxPortfolio = {
+        titleBar: {
+            enable: true,
+            text: "Portfolio Project "
+        },
+        fadeIn: true,
+        fadeInSpeed: 500
+    }
+    
+    // Task Manager Project
+    const openPopupboxTaskManager = () => {
+        const content = (
+            <>
+                <img 
+                    className="portfolio-image-popupbox" 
+                    src={taskManager} 
+                    alt="Task Manager Project..."
+                />
+                <p>
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
+                    Quasi ipsa sint quis. Iure velit incidunt corporis alias 
+                    aliquam repudiandae? Sed.
+                </p>
+                <b>Demo: </b> 
+                <a 
+                    className="hyper-link" 
+                    onClick={() => window.open("https://github.com/DanielYankiver/rocket-fuel-frontend", "_blank")}
+                >
+                    https://github.com/DanielYankiver/rocket-fuel-frontend
+                </a>
+                <br/>
+                <b>Github: </b> 
+                <a 
+                    className="hyper-link" 
+                    onClick={() => window.open("https://github.com/DanielYankiver/rocket-fuel-frontend", "_blank")}
+                >
+                    https://github.com/DanielYankiver/rocket-fuel-frontend
+                </a>
+            </>
+        )
+        PopupboxManager.open({ content })
+    }
+
+    const popupboxTaskManager = {
+        titleBar: {
+            enable: true,
+            text: "Portfolio Project "
         },
         fadeIn: true,
         fadeInSpeed: 500
@@ -53,19 +198,19 @@ const Portfolio = () => {
                         <FontAwesomeIcon className="portfolio-icon" icon={faSearchPlus} />
                     </div>
                     {/* - */}
-                    <div className="portfolio-image-box">
+                    <div className="portfolio-image-box" onClick={openPopupboxCityGuide}>
                         <img className="portfolio-image" src={cityGuide} alt="City Guide Project..." />
                         <div className="overflow"></div>
                         <FontAwesomeIcon className="portfolio-icon" icon={faSearchPlus} />
                     </div>
                     {/* - */}
-                    <div className="portfolio-image-box">
+                    <div className="portfolio-image-box" onClick={openPopupboxPortfolio}>
                         <img className="portfolio-image" src={portfolio} alt="Portfolio Project..." />
                         <div className="overflow"></div>
                         <FontAwesomeIcon className="portfolio-icon" icon={faSearchPlus} />
                     </div>
                     {/* - */}
-                    <div className="portfolio-image-box">
+                    <div className="portfolio-image-box" onClick={openPopupboxTaskManager}>
                         <img className="portfolio-image" src={taskManager} alt="Task Manager React and Redux Project..." />
                         <div className="overflow"></div>
                         <FontAwesomeIcon className="portfolio-icon" icon={faSearchPlus} />
@@ -73,6 +218,9 @@ const Portfolio = () => {
                 </div>
             </div>
             <PopupboxContainer {...popupboxConfigNetflix} />
+            <PopupboxContainer {...popupboxConfigCityGuide} />
+            <PopupboxContainer {...popupboxPortfolio} />
+            <PopupboxContainer {...popupboxTaskManager} />
         </div>
     )
 }
