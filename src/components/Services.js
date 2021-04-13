@@ -12,7 +12,7 @@ const Services = () => {
                         <div className="col-md-3 col-sm-6"> 
                             <div className="box">
                                 <div className="circle">
-                                    <FontAwesomeIcon icon={faDesktop} size="2x" />
+                                    <FontAwesomeIcon className="icon" icon={faDesktop} size="2x" />
                                 </div>
                                 <h3>Web Design</h3>
                                 <p>
@@ -25,7 +25,7 @@ const Services = () => {
                         <div className="col-md-3 col-sm-6"> 
                             <div className="box">
                                 <div className="circle">
-                                    <FontAwesomeIcon icon={faFileCode} size="2x" />
+                                    <FontAwesomeIcon className="icon" icon={faFileCode} size="2x" />
                                 </div>
                                 <h3>Web Development</h3>
                                 <p>
@@ -38,11 +38,11 @@ const Services = () => {
                         <div className="col-md-3 col-sm-6"> 
                             <div className="box">
                                 <div className="circle">
-                                    <FontAwesomeIcon icon={faFacebookF} size="2x" />
+                                    <FontAwesomeIcon className="icon" icon={faFacebookF} size="2x" />
                                 </div>
                                 <h3>Blogs</h3>
                                 <p>
-                                    Check out my awesome blogs about what I am 
+                                    Check out my blogs about what I am 
                                     learning, doing and discovering 
                                 </p>
                             </div>
@@ -51,7 +51,7 @@ const Services = () => {
                         <div className="col-md-3 col-sm-6"> 
                             <div className="box">
                                 <div className="circle">
-                                    <FontAwesomeIcon icon={faGoogle} size="2x" />
+                                    <FontAwesomeIcon className="icon" icon={faGoogle} size="2x" />
                                 </div>
                                 <h3>Filmmaker</h3>
                                 <p>
