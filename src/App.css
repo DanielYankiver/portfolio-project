@@ -367,3 +367,19 @@ nav ul li {
   transition: 0.3s ease-in-out;
   cursor: pointer;
 }
+
+/****** OVERFLOW BOX ******/
+
+.portfolio-image-popupbox {
+  width: 45rem;
+  padding: 0 0.5rem;
+}
+
+.hyper-link {
+  cursor: pointer;
+  color: var(--primary-orange)
+}
+
+.hyper-link:hover {
+  color: var(--primary-red)
+}
