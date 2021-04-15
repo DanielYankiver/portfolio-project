@@ -1,6 +1,23 @@
 import React from 'react'
+import emailjs from 'emailjs-com'
 
 const Contact = () => {
+
+    const serviceID = "service_ID";
+    const templateID = "template_ID";
+    const userID = "user_NiR06iHilhuwjmomgY6AS";
+
+
+    function sendEmail(e) {
+        e.preventDefault();
+    
+        emailjs.sendForm(serviceID, templateID, e.target, userID)
+          .then((result) => {
+              console.log(result.text);
+          }, (error) => {
+              console.log(error.text);
+          });
+      }
 
 
     return (
@@ -13,66 +30,68 @@ const Contact = () => {
                 </p>  
             </div>
             <div className="container">
-                <div className="row">
-                    <div className="col-md-6 col-xs-12">
-                        {/* NAME INPUT */}
-                        <div className="text-center">
-                            <input
-                                type="text" 
-                                className="form-control"
-                                placeholder="Name"
-                                name="name"
-                            />
-                            <div className="line"></div>
+                <form onSubmit={sendEmail}>
+                    <div className="row">
+                        <div className="col-md-6 col-xs-12">
+                            {/* SUBJECT INPUT */}
+                            <div className="text-center">
+                                <input 
+                                    type="text" 
+                                    className="form-control"
+                                    placeholder="Subject"
+                                    name="subject"
+                                />
+                                <div className="line"></div>
+                            </div>
+                            {/* NAME INPUT */}
+                            <div className="text-center">
+                                <input
+                                    type="text" 
+                                    className="form-control"
+                                    placeholder="Name"
+                                    name="name"
+                                />
+                                <div className="line"></div>
+                            </div>
+                            {/* PHONE INPUT */}
+                            <div className="text-center">
+                                <input
+                                    type="text"  
+                                    className="form-control"
+                                    placeholder="Phone Number"
+                                    name="phone"
+                                />
+                                <div className="line"></div>
+                            </div>
+                            {/* EMAIL INPUT */}
+                            <div className="text-center">
+                                <input
+                                    type="email"  
+                                    className="form-control"
+                                    placeholder="Email"
+                                    name="email"
+                                />
+                                <div className="line"></div>
+                            </div>
                         </div>
-                        {/* PHONE INPUT */}
-                        <div className="text-center">
-                            <input
-                                type="text"  
-                                className="form-control"
-                                placeholder="Phone Number"
-                                phone="phone"
-                            />
-                            <div className="line"></div>
-                        </div>
-                        {/* EMAIL INPUT */}
-                        <div className="text-center">
-                            <input
-                                type="email"  
-                                className="form-control"
-                                placeholder="Email"
-                                email="email"
-                            />
-                            <div className="line"></div>
-                        </div>
-                        {/* SUBJECT INPUT */}
-                        <div className="text-center">
-                            <input 
-                                type="text" 
-                                className="form-control"
-                                placeholder="Subject"
-                                subject="subject"
-                            />
-                            <div className="line"></div>
+                        <div className="col-md-6 col-xs-12">
+                            {/* DESCRIPTION */}
+                            <div className="text-center">
+                                <textarea
+                                    type="text" 
+                                    className="form-control"
+                                    placeholder="Please describe your project..."
+                                    name="description"
+                                ></textarea>
+                                <div className="line"></div>
+                            </div>
+                            <button 
+                                className="btn-main-offer contact-btn" 
+                                type="submit"
+                            >contact me</button>
                         </div>
                     </div>
-                    <div className="col-md-6 col-xs-12">
-                        {/* DESCRIPTION */}
-                        <div className="text-center">
-                            <textarea
-                                type="text" 
-                                className="form-control"
-                                placeholder="Please describe your project..."
-                                description="description"
-                            ></textarea>
-                            <div className="line"></div>
-                        </div>
-                        <button 
-                            className="btn-main-offer contact-btn" 
-                            type="submit"
-                        >contact me</button>
-                    </div>
-                </div>
+                </form>
             </div>   
         </div>
     )
