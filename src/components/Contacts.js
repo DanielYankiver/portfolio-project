@@ -1,4 +1,18 @@
 import React from "react";
+import emailjs from "emailjs-com";
+
+const sendEmail = (e) => {
+    e.preventDefault();
+
+    emailjs.sendForm('YOUR_SERVICE_ID', 'YOUR_TEMPLATE_ID', e.target, 'YOUR_USER_ID')
+      .then((result) => {
+          console.log(result.text);
+      }, (error) => {
+          console.log(error.text);
+      });
+}
+
+// stopped here ^ 6:43 23. Contact Me Component Part #3
 
 const Contacts = () => {
     return (
@@ -26,7 +40,7 @@ const Contacts = () => {
                             type="text"  
                             className="form-control"
                             placeholder="Phone Number"
-                            phone= "phone"
+                            name= "phone"
                         />
                         <div className="line"></div>
                        </div>
@@ -36,7 +50,7 @@ const Contacts = () => {
                             type="email"  
                             className="form-control"
                             placeholder="Email"
-                            email= "email"
+                            name= "email"
                         />
                         <div className="line"></div>
                        </div>
@@ -46,7 +60,7 @@ const Contacts = () => {
                             type="text" 
                             className="form-control"
                             placeholder="Subject"
-                            subject= "subject"
+                            name= "subject"
                         />
                         <div className="line"></div>
                        </div>
@@ -58,7 +72,7 @@ const Contacts = () => {
                             type="text" 
                             className="form-control"
                             placeholder="Please describe your inquiry"
-                            description= "description"
+                            name= "description"
                         ></textarea>
                         <div className="line"></div>
                        </div>
