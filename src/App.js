@@ -4,7 +4,7 @@ import Particles from "react-particles-js";
 import Navbar from './components/Navbar';
 import Header from './components/Header';
 import About from './components/About';
-import Services from './components/Services';
+import Skills from './components/Skills';
 import Experience from './components/Experience';
 import Portfolio from './components/Portfolio';
 import Testimonials from './components/Testimonials';
@@ -39,7 +39,7 @@ function App() {
       <Navbar />
       <Header />
       <About />
-      <Services />
+      <Skills />
       <Experience />
       <Portfolio />
       <Testimonials />
