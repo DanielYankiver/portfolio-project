@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import emailjs from "emailjs-com";
 import {useForm} from "react-hook-form"
 
-const Contacts = () => {
+const Contact = () => {
     const [successMessage, setSuccessMessage] = useState("")
     const { register, handleSubmit, errors } = useForm()
 
@@ -39,7 +39,7 @@ const Contacts = () => {
     }
     
     return (
-        <div className="contacts">
+        <div className="contact">
            <div className="text-center">
                <div className="contact-head">
                     <h1>contact me</h1>
@@ -112,4 +112,4 @@ const Contacts = () => {
     )
 }
 
-export default Contacts
+export default Contact

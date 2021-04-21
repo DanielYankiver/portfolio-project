@@ -481,27 +481,27 @@ nav ul li {
   margin-top: 3% !important;
 }
 
-/********************************* CONTACTS *********************************/
+/********************************* CONTACT *********************************/
 
-.contacts {
+.contact {
   background: var(--primary-dark);
   padding: 3rem 0;
 }
 
-.contacts h1 {
+.contact h1 {
   color: var(--primary-orange);
   padding: 1.3rem 0;
   text-transform: uppercase;
 }
 
-.contacts p {
+.contact p {
   color: var(--primary-light-grey);
   font-size: 1.2rem;
 }
 
 /****** INPUTS  ******/
 
-.contacts input, .contacts textarea {
+.contact input, .contact textarea {
   width: 100%;
   box-sizing: border-box;
   background: none;
@@ -520,13 +520,13 @@ nav ul li {
   padding: 4rem 0;
 }
 
-.contacts input:focus, .contacts textarea:focus {
+.contact input:focus, .contact textarea:focus {
   background: transparent;
   color: var(--primary-orange);
   border-bottom: 0.125rem solid var(--primary-dark-grey);
 }
 
-.contacts textarea {
+.contact textarea {
   height: 12.2rem !important;
 }
 
@@ -563,22 +563,18 @@ textarea.form-control {
   color: var(--primary-green);
 }
 
-.contact-head{
-  padding-bottom: 5rem;
-}
-
 /****** MEDIA  ******/
 
 @media(max-width: 768px) {
-  .contacts {
+  .contact {
     overflow-x: hidden;
   }
 
-  .contacts .container {
+  .contact .container {
     padding: 0 1rem;
   }
 
-  .contacts p {
+  .contact p {
     padding: 0 0.4rem;
   }
 }
