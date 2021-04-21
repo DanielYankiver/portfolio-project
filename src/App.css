@@ -25,7 +25,8 @@ nav {
 }
 
 .logo{
-  width: 16.25rem;
+  /* width: 16.25rem;  */
+  width: 55%; 
 }
 
 /****** MENU LINKS ******/
