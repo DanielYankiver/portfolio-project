@@ -72,10 +72,10 @@ nav ul li {
 
 .header-wrapper {
   position: relative;
-  background: url(wall-and-laptop-background.jpg) no-repeat;
+  background: url(vintage-screen-code-background.jpg) no-repeat;
   background-size: cover;
   background-position: center;
-  height: 90vh;
+  height: 100vh;
 }
 
 .main-info {
@@ -420,7 +420,7 @@ nav ul li {
 /********************************* TESTIMONIALS *********************************/
 
 .testimonials {
-  background-image: url(testimonials-bg.jpg);
+  background-image: url(dark-wall-of-code.jpg);
   background-size: cover;
   background-color: var(--primary-black);
   text-align: center;
