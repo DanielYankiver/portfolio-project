@@ -4,7 +4,7 @@ import TestimonialsCarousel from "./TestimonialsCarousel"
 const Testimonials = () => {
     return (
         <div className="testimonials">
-            <h1>my happy clients</h1>
+            <h1>Skills</h1>
             <div className="container">
                 <div className="testimonials-content">
                     <TestimonialsCarousel />

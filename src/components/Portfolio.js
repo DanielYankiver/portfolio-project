@@ -46,6 +46,39 @@ const Portfolio = () => {
         PopupboxManager.open({ content })
     }
 
+    // const openPopupboxNetflix = () => {
+    //     const content = (
+    //         <>
+    //             <img 
+    //                 className="portfolio-image-popupbox" 
+    //                 src={netflix} 
+    //                 alt="Netflix Clone Project..."
+    //             />
+    //             <p>
+    //                 Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
+    //                 Quasi ipsa sint quis. Iure velit incidunt corporis alias 
+    //                 aliquam repudiandae? Sed.
+    //             </p>
+    //             <b>Demo: </b> 
+    //             <a 
+    //                 className="hyper-link" 
+    //                 onClick={() => window.open("https://github.com/DanielYankiver/rocket-fuel-frontend", "_blank")}
+    //             >
+    //                 https://github.com/DanielYankiver/rocket-fuel-frontend
+    //             </a>
+    //             <br/>
+    //             <b>Github: </b> 
+    //             <a 
+    //                 className="hyper-link" 
+    //                 onClick={() => window.open("https://github.com/DanielYankiver/rocket-fuel-frontend", "_blank")}
+    //             >
+    //                 https://github.com/DanielYankiver/rocket-fuel-frontend
+    //             </a>
+    //         </>
+    //     )
+    //     PopupboxManager.open({ content })
+    // }
+
     const popupboxConfigNetflix = {
         titleBar: {
             enable: true,
@@ -221,6 +254,12 @@ const Portfolio = () => {
             <PopupboxContainer {...popupboxConfigCityGuide} />
             <PopupboxContainer {...popupboxPortfolio} />
             <PopupboxContainer {...popupboxTaskManager} />
+            <h1 className="text-uppercase text-center py-5">Filmmaker Reel</h1>
+            <div className="portfolio-image-box" onClick={openPopupboxNetflix}>
+                <img className="portfolio-image" src={netflix} alt="Netflix Clone Project..." />
+                <div className="overflow"></div>
+                <FontAwesomeIcon className="portfolio-icon" icon={faSearchPlus} />
+            </div>
         </div>
     )
 }

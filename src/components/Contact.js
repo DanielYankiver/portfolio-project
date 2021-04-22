@@ -43,7 +43,10 @@ const Contact = () => {
            <div className="text-center">
                <div className="contact-head">
                     <h1>contact me</h1>
-                    <p>Please fill out the form and describe your project needs and I'll contact you as soon as possible.</p>
+                    {/* <p>
+                        Please fill out the form and I'll contact you as soon as possible.
+                        Thank you for reaching out!
+                    </p> */}
                     <span className="success-message">{successMessage}</span>
                </div>
            </div>
@@ -66,7 +69,7 @@ const Contact = () => {
                                 <input
                                     type="text"  
                                     className="form-control"
-                                    placeholder="Phone Number"
+                                    placeholder="Phone"
                                     name= "phone"
                                 />
                                 <div className="line"></div>
@@ -98,12 +101,12 @@ const Contact = () => {
                                 <textarea 
                                     type="text" 
                                     className="form-control"
-                                    placeholder="Please describe your inquiry"
+                                    placeholder="Please describe your inquiry..."
                                     name= "description"
                                 ></textarea>
                                 <div className="line"></div>
                             </div>
-                            <button className="btn-main-offer contact-btn" type="submit">contact me</button>
+                            <button className="btn-main-offer contact-btn" type="submit">SEND</button>
                         </div>
                     </div>
                </form>
