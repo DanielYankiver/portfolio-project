@@ -559,6 +559,12 @@ textarea.form-control {
   margin: -0.3rem 0;
 }
 
+.error-message {
+  color: var(--primary-white);
+  background: var(--primary-hover-red);
+  text-align: left;
+}
+
 .success-message {
   font-weight: 900;
   color: var(--primary-green);
