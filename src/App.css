@@ -31,6 +31,9 @@
   --dark-mode-turquoise: #03DAC6;
 
   --dark-mode-extended-yellow: #FF991F;
+  --dark-mode-extended-blue: #00A3BF;
+  --dark-mode-extended-blue-light: #B3F5FF;
+
  
 }
 
@@ -418,17 +421,17 @@ button.btn-links {
 /********************************* PORTFOLIO *********************************/
 
 .portfolio-wrapper {
-  background: var(--primary-light-grey);
+  background: var(--background-black);
   padding: 3rem 0;
 }
 
 .portfolio-wrapper h1 {
-  color: var(--primary-orange);
+  color: var(--dark-mode-green);
 }
 
 .portfolio-image {
   width: 15rem;
-  border: 1px solid var(--primary-orange);
+  border: 1px solid var(--dark-mode-green);
   padding: 0 0.5rem;
 }
 
@@ -446,7 +449,7 @@ button.btn-links {
   width: 15rem;
   height: 8rem;
   top: 0;
-  border: 1px solid var(--primary-red);
+  border: 1px solid var(--dark-mode-turquoise);
   cursor: pointer;
 }
 
@@ -460,7 +463,7 @@ button.btn-links {
   opacity: 0;
   margin-left: -8rem;
   margin-top: 3.6rem;
-  color: var(--primary-orange);
+  color: var(--dark-mode-turquoise);
   font-size: 1.5rem;
 }
 
@@ -475,6 +478,10 @@ button.btn-links {
 }
 
 /****** OVERFLOW BOX ******/
+
+.popupbox-titleBar{
+  background: var(--navbar-dark-grey);
+}
 
 .portfolio-image-popupbox {
   width: 45rem;

@@ -46,39 +46,6 @@ const Portfolio = () => {
         PopupboxManager.open({ content })
     }
 
-    // const openPopupboxNetflix = () => {
-    //     const content = (
-    //         <>
-    //             <img 
-    //                 className="portfolio-image-popupbox" 
-    //                 src={netflix} 
-    //                 alt="Netflix Clone Project..."
-    //             />
-    //             <p>
-    //                 Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
-    //                 Quasi ipsa sint quis. Iure velit incidunt corporis alias 
-    //                 aliquam repudiandae? Sed.
-    //             </p>
-    //             <b>Demo: </b> 
-    //             <a 
-    //                 className="hyper-link" 
-    //                 onClick={() => window.open("https://github.com/DanielYankiver/rocket-fuel-frontend", "_blank")}
-    //             >
-    //                 https://github.com/DanielYankiver/rocket-fuel-frontend
-    //             </a>
-    //             <br/>
-    //             <b>Github: </b> 
-    //             <a 
-    //                 className="hyper-link" 
-    //                 onClick={() => window.open("https://github.com/DanielYankiver/rocket-fuel-frontend", "_blank")}
-    //             >
-    //                 https://github.com/DanielYankiver/rocket-fuel-frontend
-    //             </a>
-    //         </>
-    //     )
-    //     PopupboxManager.open({ content })
-    // }
-
     const popupboxConfigNetflix = {
         titleBar: {
             enable: true,
