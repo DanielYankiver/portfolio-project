@@ -2,6 +2,7 @@ import React from 'react'
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faFacebookF, faGoogle, faLinkedinIn, faGithub, faMediumM } from "@fortawesome/free-brands-svg-icons"
 import { faDesktop, faFileCode, faVideo } from "@fortawesome/free-solid-svg-icons"
+import { Link } from "react-scroll";
 
 const Skills = () => {
     return (
@@ -15,10 +16,13 @@ const Skills = () => {
                                     <FontAwesomeIcon className="icon" icon={faLinkedinIn} size="2x" />
                                 </div>
                                 <h3>LinkedIn</h3>
-                                <p>
+                                <div className="links-button-div">
+                                    <button className="btn-links">Connect</button>
+                                </div>
+                                {/* <p>
                                     I approach each project individually 
                                     and always focus on the result. 
-                                </p>
+                                </p> */}
                             </div>
                         </div>
                         {/* - */}
@@ -28,10 +32,13 @@ const Skills = () => {
                                     <FontAwesomeIcon className="icon" icon={faGithub} size="2x" />
                                 </div>
                                 <h3>Github</h3>
-                                <p>
+                                <div className="links-button-div">
+                                    <button className="btn-links">My Code</button>
+                                </div>
+                                {/* <p>
                                     Your website will be built with a new and
                                     proven technologies.
-                                </p>
+                                </p> */}
                             </div>
                         </div>
                         {/* - */}
@@ -41,10 +48,13 @@ const Skills = () => {
                                     <FontAwesomeIcon className="icon" icon={faMediumM} size="2x" />
                                 </div>
                                 <h3>Medium</h3>
-                                <p>
+                                <div className="links-button-div">
+                                    <button className="btn-links">My Blogs</button>
+                                </div>
+                                {/* <p>
                                     Check out my blogs about what I am 
                                     learning, doing and discovering 
-                                </p>
+                                </p> */}
                             </div>
                         </div>
                         {/* - */}
@@ -53,11 +63,14 @@ const Skills = () => {
                                 <div className="circle">
                                     <FontAwesomeIcon className="icon" icon={faVideo} size="2x" />
                                 </div>
-                                <h3>Film Work</h3>
-                                <p>
+                                <h3>Video Work</h3>
+                                <div className="links-button-div">
+                                    <button className="btn-links">Portfolio</button>
+                                </div>
+                                {/* <p>
                                     As a filmmaker I have a keen eye for design and
                                     I am a great stroy-teller 
-                                </p>
+                                </p> */}
                             </div>
                         </div>
                         {/* 

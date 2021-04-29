@@ -213,23 +213,23 @@ nav ul li {
 }
 
 .services h1 {
-  color: var(--dark-mode-green);
+  color: var(--dark-mode-purple);
   text-transform: uppercase;
 }
 .services h3 {
-  color: var(--dark-mode-green);
+  color: var(--dark-mode-purple);
   text-transform: uppercase;
 }
 
 .services p {
-  color: var(--dark-mode-green);
+  color: var(--dark-mode-purple);
   text-transform: uppercase;
 }
 
 .services .circle {
   position: relative;
   margin: 0.375rem auto;
-  background: var(--dark-mode-green);
+  background: var(--dark-mode-purple);
   border-radius: 50%;
   width: 3.125rem;
   height: 3.125rem;
@@ -246,7 +246,7 @@ nav ul li {
 
 .services .box {
   height: 16rem;
-  border-bottom: 0.3125rem solid var(--dark-mode-green);
+  border-bottom: 0.3125rem solid var(--dark-mode-purple);
   padding: 0.625rem;
   margin-bottom: 1.875rem;
   background: var(--body-dark-grey);
@@ -254,12 +254,13 @@ nav ul li {
 }
 
 .services .box:hover {
-  background: var(--dark-mode-green);
+  background: var(--dark-mode-purple);
   border-bottom: 0.3125rem solid  var(--body-dark-grey);
+  cursor: pointer;
 }
 
 .services .box:hover .icon {
-  color: var(--dark-mode-green);
+  color: var(--dark-mode-purple);
 }
 
 .services .box:hover .circle {
@@ -273,6 +274,34 @@ nav ul li {
 .services .box:hover p {
   color: var(--body-dark-grey);
 }
+
+
+
+/******** LINK BUTTONS **********/
+
+button.btn-links {
+  background: var(--body-dark-grey);
+  height: 100px;
+  width: 105px;
+  font-size: large;
+  border: 1px solid var(--dark-mode-turquoise);
+  text-transform: uppercase;
+  border-radius: 0;
+  padding: 0.625rem 0.75rem 0.75rem 0.75rem;
+  color: var(--secondary-text-white);
+  margin-top: .75rem;
+  cursor: pointer;
+}
+
+.btn-links:hover{
+  text-decoration: none;
+  background-color: var(--body-light-grey);
+  color: var(--secondary-text-white);
+  transition: .2s ease-in-out;
+}
+
+
+
 
 /********************************* EXPERIENCE *********************************/
 
