@@ -4,10 +4,10 @@ import Particles from "react-particles-js";
 import Navbar from './components/Navbar';
 import Header from './components/Header';
 import About from './components/About';
-import Skills from './components/Skills';
+import Links from './components/Links';
 import Experience from './components/Experience';
 import Portfolio from './components/Portfolio';
-import Testimonials from './components/Testimonials';
+import Skills from './components/Skills';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
 
@@ -38,10 +38,10 @@ function App() {
       <Navbar />
       <Header />
       <About />
-      <Skills />
+      <Links />
       <Experience />
       <Portfolio />
-      <Testimonials />
+      <Skills />
       <Contact />
       <Footer />
     </>

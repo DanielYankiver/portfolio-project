@@ -426,12 +426,12 @@ button.btn-links {
 }
 
 .portfolio-wrapper h1 {
-  color: var(--dark-mode-green);
+  color: var(--dark-mode-purple);
 }
 
 .portfolio-image {
   width: 15rem;
-  border: 1px solid var(--dark-mode-green);
+  border: 1px solid var(--dark-mode-purple);
   padding: 0 0.5rem;
 }
 
@@ -523,20 +523,21 @@ button.btn-links {
   }
 }
 
-/********************************* TESTIMONIALS *********************************/
+/********************************* SKILLS *********************************/
 
 .testimonials {
-  background-image: url(dark-wall-of-code.jpg);
+  /* background-image: url(dark-wall-of-code.jpg); */
   background-size: cover;
-  background-color: var(--primary-black);
+  background-color: var(--body-dark-grey);
   text-align: center;
+  padding-top: 1rem;
   padding-bottom: 4rem;
   margin-bottom: 0;
   width: 100%;
 }
 
 .testimonials h1 {
-  color: var(--primary-orange);
+  color: var(--dark-mode-red);
   padding: 3rem 0;
   text-transform: uppercase;
 }
@@ -563,7 +564,7 @@ button.btn-links {
 }
 
 .myCarousel h3 {
-  color: var(--primary-orange);
+  color: var(--secondary-text-white);
   font-weight: 600;
   text-transform: uppercase;
 }

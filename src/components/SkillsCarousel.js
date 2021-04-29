@@ -1,13 +1,15 @@
 import React from 'react';
 import { Carousel } from "react-responsive-carousel";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
+// import { FaReact } from "@react-icons/FaReact"
+
 // AVATAR IMPORTS
 import avatar1 from "../images/avatars/avatar-1.png";
 import avatar2 from "../images/avatars/avatar-2.png";
 import avatar3 from "../images/avatars/avatar-3.png";
 import avatar4 from "../images/avatars/avatar-4.png";
 
-const TestimonialsCarousel = () => {
+const SkillsCarousel = () => {
     return (
         <Carousel
             showArrows={true}
@@ -21,92 +23,92 @@ const TestimonialsCarousel = () => {
                 <img src={avatar1} alt="John Doe 1"/>
                 <div className="myCarousel">
                     <h3>React</h3>
-                    <p>
+                    {/* <p>
                         Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
                         Iste aspernatur distinctio quae nostrum laborum doloremque 
                         assumenda excepturi, quibusdam omnis fuga!
-                    </p>
+                    </p> */}
                 </div>
             </>
             <>
                 <img src={avatar2} alt="Jane Doe 2"/>
                 <div className="myCarousel">
                     <h3>Javascript</h3>
-                    <p>
+                    {/* <p>
                         Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
                         Iste aspernatur distinctio quae nostrum laborum doloremque 
                         assumenda excepturi, quibusdam omnis fuga!
-                    </p>
+                    </p> */}
                 </div>
             </>
             <>
                 <img src={avatar3} alt="John Doe 3"/>
                 <div className="myCarousel">
                     <h3>Ruby on Rails</h3>
-                    <p>
+                    {/* <p>
                         Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
                         Iste aspernatur distinctio quae nostrum laborum doloremque 
                         assumenda excepturi, quibusdam omnis fuga!
-                    </p>
+                    </p> */}
                 </div>
             </>
             <>
                 <img src={avatar4} alt="John Doe 4"/>
                 <div className="myCarousel">
                     <h3>CSS</h3>
-                    <p>
+                    {/* <p>
                         Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
                         Iste aspernatur distinctio quae nostrum laborum doloremque 
                         assumenda excepturi, quibusdam omnis fuga!
-                    </p>
+                    </p> */}
                 </div>
             </>
             <>
                 <img src={avatar4} alt="John Doe 4"/>
                 <div className="myCarousel">
                     <h3>Ruby</h3>
-                    <p>
+                    {/* <p>
                         Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
                         Iste aspernatur distinctio quae nostrum laborum doloremque 
                         assumenda excepturi, quibusdam omnis fuga!
-                    </p>
+                    </p> */}
                 </div>
             </>
             <>
                 <img src={avatar4} alt="John Doe 4"/>
                 <div className="myCarousel">
                     <h3>HTML</h3>
-                    <p>
+                    {/* <p>
                         Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
                         Iste aspernatur distinctio quae nostrum laborum doloremque 
                         assumenda excepturi, quibusdam omnis fuga!
-                    </p>
+                    </p> */}
                 </div>
             </>
             <>
                 <img src={avatar4} alt="John Doe 4"/>
                 <div className="myCarousel">
                     <h3>Adobe Premiere</h3>
-                    <p>
+                    {/* <p>
                         Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
                         Iste aspernatur distinctio quae nostrum laborum doloremque 
                         assumenda excepturi, quibusdam omnis fuga!
-                    </p>
+                    </p> */}
                 </div>
             </>
             <>
                 <img src={avatar4} alt="John Doe 4"/>
                 <div className="myCarousel">
                     <h3>Adobe Photoshop</h3>
-                    <p>
+                    {/* <p>
                         Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
                         Iste aspernatur distinctio quae nostrum laborum doloremque 
                         assumenda excepturi, quibusdam omnis fuga!
-                    </p>
+                    </p> */}
                 </div>
             </>
         </Carousel>
     )
 }
 
-export default TestimonialsCarousel
+export default SkillsCarousel
