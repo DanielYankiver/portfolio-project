@@ -12,7 +12,9 @@
   --primary-black: #000000;
   --primary-transparent-black: rgba(0,0,0,0.7);
   --primary-green: green;
+
   /************ dark mode color pallette **************/
+
   --background-black: #121212;
   --navbar-dark-grey: #181818;
   --body-light-grey: #404040;
@@ -27,6 +29,8 @@
   --dark-mode-purple: #BB86FC;
   --dark-mode-green: #018786;
   --dark-mode-turquoise: #03DAC6;
+
+  --dark-mode-extended-yellow: #FF991F;
  
 }
 
@@ -307,6 +311,7 @@ button.btn-links {
 
 .experience {
   padding: 0.7rem;
+  background: var(--body-dark-grey);
 }
 
 .experience-wrapper {
@@ -317,7 +322,7 @@ button.btn-links {
 
 .experience h1 {
   text-transform: uppercase;
-  color: var(--primary-orange);
+  color: var(--dark-mode-red);
 }
 
 .experience-wrapper::before {
@@ -328,7 +333,7 @@ button.btn-links {
   margin-left: -0.0625rem;
   width: 0.125rem;
   height: 100%;
-  background: var(--primary-grey);
+  background: var(--navbar-dark-grey);
   z-index: 1;
 }
 
@@ -352,8 +357,8 @@ button.btn-links {
   width: 1rem;
   height: 1rem;
   border-radius: 50%;
-  border: 0.3125rem solid var(--primary-dark);
-  background: var(--primary-orange);
+  border: 0.3125rem solid var(--navbar-dark-grey);
+  background: var(--dark-mode-red);
   margin-top: 00.625rem;
   z-index: 3;
 }
@@ -367,7 +372,25 @@ button.btn-links {
 
 .timeline-content h3 {
   margin-top: 0.3125rem;
-  color: var(--primary-red);
+  color: var(--dark-mode-red);
+  font-weight: 900;
+}
+
+.timeline-content h4 {
+  margin-top: 0.3125rem;
+  color: var(--dark-mode-green);
+  font-weight: 900;
+}
+
+.timeline-content h6 {
+  margin-top: 0.3125rem;
+  /* color: var(--secondary-text-white); */
+  font-weight: 900;
+}
+
+.timeline-content p {
+  margin-top: 0.3125rem;
+  /* color: var(--secondary-text-white); */
   font-weight: 900;
 }
 
