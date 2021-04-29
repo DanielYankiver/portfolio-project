@@ -1,5 +1,6 @@
 import React from "react";
 import logo from "../logo.png";
+import minLogo from "../dy-minimal-labyrinth-logo.png"
 import {Link} from "react-scroll";
 // REACT FONT AWESOME IMPORT
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
@@ -7,9 +8,9 @@ import { faBars } from "@fortawesome/free-solid-svg-icons"
 
 const Navbar = () => {
     return (
-        <nav className="navbar navbar-expand-lg navbar-light bg-dark fixed-top">
+        <nav className="navbar navbar-expand-lg navbar-light fixed-top"> 
             <div className="container">
-                <Link smooth={true} to="home" offset={-110} className="navbar-brand"><img className="logo" src={logo} alt="logo"/></Link>
+                <Link smooth={true} to="home" offset={-110} className="navbar-brand"><img className="logo" src={minLogo} alt="logo"/></Link>
                 <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     <FontAwesomeIcon icon={faBars} style={{ color: "#fff" }}/>
                 </button>

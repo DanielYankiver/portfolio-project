@@ -12,6 +12,22 @@
   --primary-black: #000000;
   --primary-transparent-black: rgba(0,0,0,0.7);
   --primary-green: green;
+  /************ dark mode color pallette **************/
+  --background-black: #121212;
+  --navbar-dark-grey: #181818;
+  --body-light-grey: #404040;
+  --body-dark-grey: #282828;
+  --primary-text-white: #ffffff;
+  --secondary-text-white: #B3B3B3;
+
+
+  --dark-mode-red: #CF6679;
+  --dark-mode-blue: #3700B3;
+  --dark-mode-light-blue: #6200EE;
+  --dark-mode-purple: #BB86FC;
+  --dark-mode-green: #018786;
+  --dark-mode-turquoise: #03DAC6;
+ 
 }
 
 body{
@@ -22,11 +38,14 @@ body{
 
 nav {
   z-index: 2;
+  background: var(--navbar-dark-grey);
+  /* background: var(--primary-black); */
+  opacity: 100%;
 }
 
 .logo{
-  /* width: 16.25rem;  */
-  width: 55%; 
+  width: 6rem; 
+  /* width: 55%;  */
 }
 
 /****** MENU LINKS ******/
@@ -44,8 +63,8 @@ nav ul li {
 .navbar-nav > li > a {
   margin-right: 0.75rem;
   margin-left: 0.75rem;
-  color: var(--primary-white) !important;
-  border-top: 0.1875rem solid var(--primary-dark);
+  color: var(--secondary-text-white) !important;
+  border-top: 0.1875rem solid var(var(--navbar-dark-grey););
 } 
 
 .navbar-brand{
@@ -61,18 +80,21 @@ nav ul li {
 }
 
 .navbar-nav > li > a.active, .navbar-nav > li > a:focus {
-  border-top: 0.1875rem solid var(--primary-orange);
+  border-top: 0.1875rem solid var(--secondary-text-white);
 }
 
 .navbar-nav > li > a:hover{
-  border-top: 0.1875rem solid var(--primary-orange);
+  border-top: 0.1875rem solid var(--secondary-text-white);
 }
 
 /********************************* HEADER *********************************/
 
 .header-wrapper {
   position: relative;
-  background: url(futuristic-galaxy-background-with-neon-laser-grid.jpg) no-repeat;
+  background: var(--background-black);
+  /* background: url(wall-and-laptop-background.jpg) no-repeat; */
+  /* background: url(film-photo-scratch.jpg) no-repeat; */
+  /* background: url(futuristic-galaxy-background-with-neon-laser-grid.jpg) no-repeat; */
   background-size: cover;
   background-position: center;
   height: 100vh;
@@ -93,7 +115,7 @@ nav ul li {
 }
 
 .main-info h1 {
-  color: var(--primary-orange);
+  color: var(--dark-mode-green);
   text-transform: uppercase;
 }
 
@@ -102,7 +124,7 @@ nav ul li {
 
 .typed-text {
   font-size: 2rem;
-  color: var(--primary-white);
+  color: var(--secondary-text-white);
 }
 
 @media(max-width: 768px) {
@@ -117,19 +139,19 @@ nav ul li {
 /****** HEADER MAIN OFFER BUTTON ******/
 
 .btn-main-offer {
-  border: 1px solid var(--primary-red);
+  border: 1px solid var(--dark-mode-red);
   text-transform: uppercase;
   border-radius: 0;
   padding: 0.625rem 0.75rem 0.75rem 0.75rem;
-  color: var(--primary-white);
+  color: var(--secondary-text-white);
   margin: 2rem;
   cursor: pointer;
 }
 
 .btn-main-offer:hover{
   text-decoration: none;
-  background-color: var(--primary-hover-red);
-  color: var(--primary-white);
+  background-color: var(--dark-mode-red);
+  color: var(--primary-text-white);
   transition: .2s ease-in-out;
 }
 
@@ -150,23 +172,30 @@ nav ul li {
 
 /********************************* ABOUT *********************************/
 
+#about {
+  background: var(--body-dark-grey);
+}
+
 .photo-wrap {
   display: flex;
   justify-content: center;
   align-items: center;
-  
 }
 
 .profile-img {
   width: 16rem;
   border-radius: 50%;
   padding: .3rem;
-  border: 1px solid var(--primary-orange);
+  border: 1px solid var(--dark-mode-green);
 }
 
 .about-heading {
-  color: var(--primary-orange);
+  color: var(--dark-mode-green);
   text-transform: uppercase;
+}
+
+.p-about {
+  color: var(--secondary-text-white);
 }
 
 @media(max-width: 468px) {

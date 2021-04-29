@@ -1,20 +1,20 @@
 import React from 'react'
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faFacebookF, faGoogle } from "@fortawesome/free-brands-svg-icons"
-import { faDesktop, faFileCode } from "@fortawesome/free-solid-svg-icons"
+import { faFacebookF, faGoogle, faLinkedinIn, faGithub, faMediumM } from "@fortawesome/free-brands-svg-icons"
+import { faDesktop, faFileCode, faVideo } from "@fortawesome/free-solid-svg-icons"
 
 const Skills = () => {
     return (
         <div id="services" className="services">
-            <h1 className="py-5">Languages - Frameworks - Technologies</h1>
+            <h1 className="py-5">Links</h1>
                 <div className="container">
                     <div className="row">
                         <div className="col-lg-3 col-md-6 col-sm-6"> 
                             <div className="box">
                                 <div className="circle">
-                                    <FontAwesomeIcon className="icon" icon={faDesktop} size="2x" />
+                                    <FontAwesomeIcon className="icon" icon={faLinkedinIn} size="2x" />
                                 </div>
-                                <h3>React</h3>
+                                <h3>LinkedIn</h3>
                                 <p>
                                     I approach each project individually 
                                     and always focus on the result. 
@@ -25,9 +25,9 @@ const Skills = () => {
                         <div className="col-lg-3 col-md-6 col-sm-6"> 
                             <div className="box">
                                 <div className="circle">
-                                    <FontAwesomeIcon className="icon" icon={faFileCode} size="2x" />
+                                    <FontAwesomeIcon className="icon" icon={faGithub} size="2x" />
                                 </div>
-                                <h3>Javascript</h3>
+                                <h3>Github</h3>
                                 <p>
                                     Your website will be built with a new and
                                     proven technologies.
@@ -38,9 +38,9 @@ const Skills = () => {
                         <div className="col-lg-3 col-md-6 col-sm-6"> 
                             <div className="box">
                                 <div className="circle">
-                                    <FontAwesomeIcon className="icon" icon={faFacebookF} size="2x" />
+                                    <FontAwesomeIcon className="icon" icon={faMediumM} size="2x" />
                                 </div>
-                                <h3>Ruby on Rails</h3>
+                                <h3>Medium</h3>
                                 <p>
                                     Check out my blogs about what I am 
                                     learning, doing and discovering 
@@ -51,16 +51,16 @@ const Skills = () => {
                         <div className="col-lg-3 col-md-6 col-sm-6"> 
                             <div className="box">
                                 <div className="circle">
-                                    <FontAwesomeIcon className="icon" icon={faGoogle} size="2x" />
+                                    <FontAwesomeIcon className="icon" icon={faVideo} size="2x" />
                                 </div>
-                                <h3>CSS</h3>
+                                <h3>Film Work</h3>
                                 <p>
                                     As a filmmaker I have a keen eye for design and
                                     I am a great stroy-teller 
                                 </p>
                             </div>
                         </div>
-                        {/* - */}
+                        {/* 
                         <div className="col-lg-3 col-md-6 col-sm-6"> 
                             <div className="box">
                                 <div className="circle">
@@ -73,7 +73,6 @@ const Skills = () => {
                                 </p>
                             </div>
                         </div>
-                        {/* - */}
                         <div className="col-lg-3 col-md-6 col-sm-6"> 
                             <div className="box">
                                 <div className="circle">
@@ -86,7 +85,6 @@ const Skills = () => {
                                 </p>
                             </div>
                         </div>
-                        {/* - */}
                         <div className="col-lg-3 col-md-6 col-sm-6"> 
                             <div className="box">
                                 <div className="circle">
@@ -111,6 +109,7 @@ const Skills = () => {
                                 </p>
                             </div>
                         </div>
+                        */}
                     </div>
                 </div>
         </div>  
