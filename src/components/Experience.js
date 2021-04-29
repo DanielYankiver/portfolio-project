@@ -74,11 +74,10 @@ const Experience = () => {
                 <div className="timeline-block timeline-block-left">
                     <div className="marker"></div>
                     <div className="timeline-content">
-                        <h3>Bachelor of Fine Arts</h3>
-                        <h4>New York University</h4>
+                        <h3>Film & TV Production</h3>
+                        <h4>New York University (BFA)</h4>
                         <h6>Sept 2007- Jun 2011</h6>
                         <p>
-                            - Tisch School of the Arts -
                             Lorem ipsum dolor, sit amet consectetur adipisicing elit. Necessitatibus odit voluptatibus sed consequuntur? Officiis dolor est nemo mollitia quod dolore quam, ducimus inventore atque culpa, neque odio, asperiores dolores dicta!
                         </p>
                     </div>
