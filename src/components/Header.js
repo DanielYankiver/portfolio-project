@@ -23,9 +23,9 @@ const Header = () => {
                 </div>
             </div>
             <div className="container">
-                <div className="testimonials-content">
+                {/* <div className="testimonials-content">
                     <SkillsCarousel />
-                </div>
+                </div> */}
             </div>
         </div>
     )

@@ -131,7 +131,7 @@ nav ul li {
 
 .typed-text {
   font-size: 2rem;
-  color: var(--secondary-text-white);
+  color: var(--dark-mode-purple);
 }
 
 @media(max-width: 768px) {
@@ -641,7 +641,7 @@ button.btn-links {
 /********************************* CONTACT *********************************/
 
 .contact {
-  background: var(--body-light-grey);
+  background: var(--navbar-dark-grey);
   padding: 3rem 0;
 }
 
