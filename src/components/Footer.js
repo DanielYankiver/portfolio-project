@@ -10,22 +10,27 @@ import {
     LinkedinIcon  
 } from "react-share"
 
+import { SiLinkedin, SiGithub, SiMedium, SiVimeo } from 'react-icons/si';
+import minLogo from "../dy-minimal-labyrinth-logo.png"
+import {Link} from "react-scroll";
+
+
 const Footer = () => {
     return (
         <div className="footer">
             <div className="container">
                 <div className="row">
                     <div className="col-lg-4 col-md-6 col-sm-6">
-                        <div className="d-flex">
-                            {/* <a href="tel:555-555-5555">+7(960)555-5555</a> */}
-                            <p>..........................................</p>
+                        <Link smooth={true} to="home" offset={-110} className="navbar-brand"><img className="logo-footer" src={minLogo} alt="logo"/></Link>
+                        {/* <div className="d-flex">
+                            <p>....................LOGO..................</p>
                         </div> 
                         <div className="d-flex">
-                            <p>..........................................</p>
+                            <p>....................LOGO..................</p>
                         </div>
                         <div className="d-flex">
-                            <p>© 2021 By Daniel Yankiver</p>
-                        </div>
+                            <p>....................LOGO..................</p>
+                        </div> */}
                     </div>
                     <div className="col-lg-3 col-md-2 col-sm-6">
                         <div className="row">
@@ -47,7 +52,11 @@ const Footer = () => {
                     </div>
                     <div className="col-lg-5 col-md-5 col-sm-6 align-items-center">
                         <div className="d-flex justify-content-center">
-                            <FacebookShareButton
+                                <h3><SiLinkedin className="social-links" /></h3>
+                                <h3><SiGithub className="social-links" /></h3>
+                                <h3><SiMedium className="social-links" /></h3>
+                                <h3><SiVimeo className="social-links" /></h3>
+                            {/* <FacebookShareButton
                                 url={"https://www.youtube.com/channel/UC8Sh6sjg6YfzI_v99cQO4nA"}
                                 quote={"FullStack Developer"}
                                 hashtag="#javascript"
@@ -74,7 +83,7 @@ const Footer = () => {
                                 hashtag="#javascript"
                             >
                                 <LinkedinIcon className="mx-3" size={36}/>
-                            </LinkedinShareButton>  
+                            </LinkedinShareButton>   */}
                         </div>
                         <p className="pt-3 text-center">
                             Copyright&copy;

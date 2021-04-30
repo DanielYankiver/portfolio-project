@@ -698,14 +698,14 @@ textarea.form-control {
 /********************************* FOOTER *********************************/
 
 .footer {
-  background: var(--primary-black);
-  color: var(--primary-dark);
+  background: var(--background-black);
+  color: var(--dark-mode-green);
   padding: 3rem;
 }
 
 .footer a {
   text-decoration: none;
-  color: var(--primary-dark-grey);
+  color: var(--secondary-text-white);
 }
 
 .footer a:hover {
@@ -716,5 +716,19 @@ textarea.form-control {
 
 .footer p {
   margin-bottom: 0;
+  color: var(--primary-dark-grey);
 }
+
+.logo-footer{
+  width: 5rem;
+}
+
+.footer-nav{
+  color: var(--primary-dark-grey) !important;
+}
+
+.social-links {
+  margin: .5rem;
+}
+
 
