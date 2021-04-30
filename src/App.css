@@ -5,7 +5,7 @@
   --primary-light-grey: #f4f4f4;
   --primary-grey: #ccd1d9;
   --primary-dark-grey: #666666;
-  --primary-orange: #f9ab00;
+  --dark-mode-green: #f9ab00;
   --primary-dark: rgb(52, 58, 64);
   --primary-red: #ef4035;
   --primary-hover-red: #f33501;
@@ -490,7 +490,7 @@ button.btn-links {
 
 .hyper-link {
   cursor: pointer;
-  color: var(--primary-orange)
+  color: var(--dark-mode-green)
 }
 
 .hyper-link:hover {
@@ -592,18 +592,18 @@ button.btn-links {
 /********************************* CONTACT *********************************/
 
 .contact {
-  background: var(--primary-dark);
+  background: var(--body-light-grey);
   padding: 3rem 0;
 }
 
 .contact h1 {
-  color: var(--primary-orange);
+  color: var(--dark-mode-green);
   padding: 1.3rem 0;
   text-transform: uppercase;
 }
 
 .contact p {
-  color: var(--primary-light-grey);
+  color: var(--dark-mode-red);
   font-size: 1.2rem;
 }
 
@@ -617,7 +617,7 @@ button.btn-links {
   border: 0;
   border-bottom: 0.125rem solid var(--primary-dark-grey);
   border-radius: 0;
-  color: var(--primary-orange);
+  color: var(--dark-mode-green);
   outline: 0 !important;
   box-shadow: none !important;
   margin-bottom: 1rem;
@@ -630,7 +630,7 @@ button.btn-links {
 
 .contact input:focus, .contact textarea:focus {
   background: transparent;
-  color: var(--primary-orange);
+  color: var(--dark-mode-green);
   border-bottom: 0.125rem solid var(--primary-dark-grey);
 }
 
@@ -638,10 +638,12 @@ button.btn-links {
   height: 12.2rem !important;
 }
 
-.contact-btn {
+button.btn-main-offer.contact-btn {
   margin: 1rem 0 0 0;
   width: 100%;
   background: none;
+  border-color: var(--dark-mode-green);
+  color: var(--dark-mode-green);
 }
 
 .line {
@@ -649,7 +651,7 @@ button.btn-links {
   top: -0.8rem;
   width: 0;
   height: .0125rem;
-  background: var(--primary-orange);
+  background: var(--dark-mode-green);
   display: inline-block;
 }
 
@@ -667,14 +669,14 @@ textarea.form-control {
 }
 
 .error-message {
-  color: var(--primary-white);
-  background: var(--primary-hover-red);
+  color: var(--primary-text-white);
+  background: var(--dark-mode-red);
   text-align: left;
 }
 
 .success-message {
   font-weight: 900;
-  color: var(--primary-green);
+  color: var(--dark-mode-purple);
 }
 
 /****** MEDIA  ******/
@@ -708,7 +710,7 @@ textarea.form-control {
 
 .footer a:hover {
   text-decoration: none;
-  color: var(--primary-orange);
+  color: var(--dark-mode-green);
   cursor: pointer;
 }
 
