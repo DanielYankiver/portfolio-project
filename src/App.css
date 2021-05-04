@@ -284,12 +284,14 @@ nav ul li {
   text-align: center;
   padding-bottom: 2rem;
   background: var(--background-black);
+  padding-top: 2rem;
 }
 
 .services h1 {
   color: var(--dark-mode-red);
   text-transform: uppercase;
 }
+
 .services h3 {
   color: var(--dark-mode-red);
   text-transform: uppercase;
@@ -364,9 +366,6 @@ nav ul li {
 }
 
 
-
-
-
 /******** LINK BUTTONS **********/
 
 button.btn-links {
@@ -391,6 +390,60 @@ button.btn-links {
 }
 
 
+/******** LINKS CAROUSEL **********/
+
+.carousel {
+    text-align: center;
+    max-width: 20rem;
+    margin: 0 auto 2rem auto;
+    background: var(--body-dark-grey)
+}
+
+.linksCarousel {
+  color: var(--dark-mode-red);
+  background: transparent;
+  margin-top: -6%;
+  width: 54%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 1%;
+  padding-bottom: 8%;
+  padding-left: 5%;
+  padding-right: 5%;
+  height: 11rem;
+}
+
+.linksCarousel h1 {
+  color: var(--dark-mode-red);
+  /* padding-top: 0rem; */
+}
+
+.linksCarousel h3 {
+  color: var(--dark-mode-red);
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.linksCarousel p {
+  color: var(--dark-mode-red);
+}
+
+
+.carousel .slide {
+  width: 10rem !important;
+  border-radius: 50%;
+}
+
+.carousel .slide {
+  background: transparent !important;
+  height: 100% !important;
+  padding-top: 2rem;
+}
+
+.carousel-root {
+  margin: auto !important;
+  /* margin-top: 3% !important; */
+}
 
 
 /********************************* EXPERIENCE *********************************/
@@ -608,30 +661,32 @@ button.btn-links {
 
 /********************************* SKILLS *********************************/
 
+/*  
 .testimonials {
   /* background-image: url(dark-wall-of-code.jpg); */
-  background-size: cover;
+  /* background-size: cover;
   background-color: var(--body-dark-grey);
   text-align: center;
   padding-top: 1rem;
   padding-bottom: 4rem;
   margin-bottom: 0;
   width: 100%;
-}
+} */
 
-.testimonials h1 {
+/* .testimonials h1 {
   color: var(--dark-mode-red);
   padding: 3rem 0;
   text-transform: uppercase;
-}
+} */
 
-.testimonials-content {
+/* .testimonials-content {
   text-align: center;
   max-width: 53.125rem;
   margin: 0 auto 2rem auto;
   background: var(--primary-transparent-black)
-}
+} */
 
+/* 
 .myCarousel {
   color: var(--primary-white);
   background: transparent;
@@ -644,19 +699,20 @@ button.btn-links {
   padding-left: 5%;
   padding-right: 5%;
   height: 17.875rem;
-}
+} */
 
-.myCarousel h3 {
+/* .myCarousel h3 {
   color: var(--secondary-text-white);
   font-weight: 600;
   text-transform: uppercase;
-}
+} */
 
-.myCarousel p {
+/* .myCarousel p {
   color: var(--primary-grey);
-}
+} */
 
-.carousel .slide img {
+
+/* .carousel .slide img {
   width: 10rem !important;
   border-radius: 50%;
 }
@@ -670,7 +726,7 @@ button.btn-links {
 .carousel-root {
   margin: auto !important;
   margin-top: 3% !important;
-}
+} */
 
 /********************************* CONTACT *********************************/
 

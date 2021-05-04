@@ -4,6 +4,8 @@ import { faFacebookF, faGoogle, faLinkedinIn, faGithub, faMediumM } from "@forta
 import { faDesktop, faFileCode, faVideo } from "@fortawesome/free-solid-svg-icons"
 import { Link } from "react-scroll";
 
+import LinksCarousel from "./LinksCarousel";
+
 const Links = () => {
 
 
@@ -11,7 +13,7 @@ const Links = () => {
 
     return (
         <div id="services" className="services">
-            <h1 className="py-5">Links</h1>
+            {/* <h1 className="py-5"></h1> */}
                 <div className="container">
                     <div className="row">
                         <div className="col-lg-3 col-md-6 col-sm-6"> 
@@ -145,6 +147,9 @@ const Links = () => {
                         */}
                     </div>
                 </div>
+            <div className="carousel">
+                <LinksCarousel />
+            </div>
         </div>  
     )
 }
