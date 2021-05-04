@@ -844,12 +844,12 @@ textarea.form-control {
 
 .footer a {
   text-decoration: none;
-  color: var(--secondary-text-white);
+  color: var(--dark-mode-green);
 }
 
 .footer a:hover {
   text-decoration: none;
-  color: var(--dark-mode-green);
+  color: var(--dark-mode-turquoise);
   cursor: pointer;
 }
 

@@ -32,7 +32,7 @@ const Footer = () => {
                             <p>....................LOGO..................</p>
                         </div> */}
                     </div>
-                    <div className="col-lg-3 col-md-2 col-sm-6">
+                    {/* <div className="col-lg-3 col-md-2 col-sm-6">
                         <div className="row">
                             <div className="col">
                                 <a className="footer-nav">Home</a>
@@ -49,45 +49,25 @@ const Footer = () => {
                                 <a className="footer-nav">Contact</a>
                             </div>
                         </div>
-                    </div>
+                    </div> */}
                     <div className="col-lg-5 col-md-5 col-sm-6 align-items-center">
                         <div className="d-flex justify-content-center">
-                                <h3><SiLinkedin className="social-links" /></h3>
-                                <h3><SiGithub className="social-links" /></h3>
-                                <h3><SiMedium className="social-links" /></h3>
-                                <h3><SiVimeo className="social-links" /></h3>
-                            {/* <FacebookShareButton
-                                url={"https://www.youtube.com/channel/UC8Sh6sjg6YfzI_v99cQO4nA"}
-                                quote={"FullStack Developer"}
-                                hashtag="#javascript"
-                            >
-                                <FacebookIcon className="mx-3" size={36}/>
-                            </FacebookShareButton>
-                            <TwitterShareButton
-                                url={"https://www.youtube.com/channel/UC8Sh6sjg6YfzI_v99cQO4nA"}
-                                quote={"FullStack Developer"}
-                                hashtag="#javascript"
-                            >
-                                <TwitterIcon className="mx-3" size={36}/>
-                            </TwitterShareButton>
-                            <RedditShareButton
-                                url={"https://www.youtube.com/channel/UC8Sh6sjg6YfzI_v99cQO4nA"}
-                                quote={"FullStack Developer"}
-                                hashtag="#javascript"
-                            >
-                                <RedditIcon className="mx-3" size={36}/>
-                            </RedditShareButton>
-                            <LinkedinShareButton
-                                url={"https://www.youtube.com/channel/UC8Sh6sjg6YfzI_v99cQO4nA"}
-                                quote={"FullStack Developer"}
-                                hashtag="#javascript"
-                            >
-                                <LinkedinIcon className="mx-3" size={36}/>
-                            </LinkedinShareButton>   */}
+                                <a href="https://www.linkedin.com/in/daniel-yankiver/" target="_blank">
+                                    <h3><SiLinkedin className="social-links" /></h3>
+                                </a>
+                                <a href="https://github.com/DanielYankiver" target="_blank">
+                                    <h3><SiGithub className="social-links" /></h3>
+                                </a>
+                                <a href="https://danielyankiver.medium.com/" target="_blank">
+                                    <h3><SiMedium className="social-links" /></h3>
+                                </a>
+                                <a href="https://vimeo.com/danielyankiver" target="_blank">
+                                    <h3><SiVimeo className="social-links" /></h3>
+                                </a>
                         </div>
                         <p className="pt-3 text-center">
-                            Copyright&copy;
-                            {new Date().getFullYear()}&nbsp;Daniel Yankiver | All Rights Reserved
+                            &copy;
+                            {new Date().getFullYear()}&nbsp;by Daniel Yankiver 
                         </p>
                     </div>
                 </div>
