@@ -131,7 +131,7 @@ nav ul li {
 
 .typed-text {
   font-size: 2rem;
-  color: var(--dark-mode-purple);
+  color: var(--dark-mode-green);
 }
 
 @media(max-width: 768px) {
@@ -226,7 +226,7 @@ nav ul li {
   margin-top: 3% !important;
 } */
 
-/********************************* ABOUT *********************************/
+/********************************* ABOUT PAGE *********************************/
 
 #about {
   background: var(--body-dark-grey);
@@ -269,23 +269,23 @@ nav ul li {
 }
 
 .services h1 {
-  color: var(--dark-mode-purple);
+  color: var(--dark-mode-red);
   text-transform: uppercase;
 }
 .services h3 {
-  color: var(--dark-mode-purple);
+  color: var(--dark-mode-red);
   text-transform: uppercase;
 }
 
 .services p {
-  color: var(--dark-mode-purple);
+  color: var(--dark-mode-red);
   text-transform: uppercase;
 }
 
 .services .circle {
   position: relative;
   margin: 0.375rem auto;
-  background: var(--dark-mode-purple);
+  background: var(--dark-mode-red);
   border-radius: 50%;
   width: 3.125rem;
   height: 3.125rem;
@@ -302,7 +302,7 @@ nav ul li {
 
 .services .box {
   height: 16rem;
-  border-bottom: 0.3125rem solid var(--dark-mode-purple);
+  border-bottom: 0.3125rem solid var(--dark-mode-red);
   padding: 0.625rem;
   margin-bottom: 1.875rem;
   background: var(--body-dark-grey);
@@ -310,13 +310,13 @@ nav ul li {
 }
 
 .services .box:hover {
-  background: var(--dark-mode-purple);
+  background: var(--dark-mode-red);
   border-bottom: 0.3125rem solid  var(--body-dark-grey);
   cursor: pointer;
 }
 
 .services .box:hover .icon {
-  color: var(--dark-mode-purple);
+  color: var(--dark-mode-red);
 }
 
 .services .box:hover .circle {
