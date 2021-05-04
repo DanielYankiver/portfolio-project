@@ -22,15 +22,6 @@ const Footer = () => {
                 <div className="row">
                     <div className="col-lg-4 col-md-6 col-sm-6">
                         <Link smooth={true} to="home" offset={-110} className="navbar-brand"><img className="logo-footer" src={minLogo} alt="logo"/></Link>
-                        {/* <div className="d-flex">
-                            <p>....................LOGO..................</p>
-                        </div> 
-                        <div className="d-flex">
-                            <p>....................LOGO..................</p>
-                        </div>
-                        <div className="d-flex">
-                            <p>....................LOGO..................</p>
-                        </div> */}
                     </div>
                     {/* <div className="col-lg-3 col-md-2 col-sm-6">
                         <div className="row">

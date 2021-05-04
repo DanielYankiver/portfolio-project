@@ -136,7 +136,7 @@ const Contact = () => {
                                 <textarea 
                                     type="text" 
                                     className="form-control"
-                                    placeholder="Please describe your inquiry..."
+                                    placeholder="Message..."
                                     name= "description"
                                     ref={
                                         register({
