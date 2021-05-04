@@ -557,17 +557,17 @@ button.btn-links {
 /********************************* PORTFOLIO *********************************/
 
 .portfolio-wrapper {
-  background: var(--background-black);
+  background: var(--body-dark-grey);
   padding: 3rem 0;
 }
 
 .portfolio-wrapper h1 {
-  color: var(--dark-mode-purple);
+  color: var(--dark-mode-green);
 }
 
 .portfolio-image {
   width: 15rem;
-  border: 1px solid var(--dark-mode-purple);
+  border: 1px solid var(--dark-mode-green);
   padding: 0 0.5rem;
 }
 

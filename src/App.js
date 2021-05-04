@@ -39,7 +39,7 @@ function App() {
       <Header />
       <About />
       <Links />
-      <Experience />
+      {/* <Experience /> */}
       <Portfolio />
       {/* <Skills /> */}
       <Contact />
