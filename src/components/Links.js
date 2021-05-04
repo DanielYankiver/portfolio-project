@@ -12,65 +12,73 @@ const Links = () => {
                     <div className="row">
                         <div className="col-lg-3 col-md-6 col-sm-6"> 
                             <div className="box">
-                                <div className="circle">
-                                    <FontAwesomeIcon className="icon" icon={faLinkedinIn} size="2x" />
+                                <div className="links-div">
+                                    <div className="circle">
+                                        <FontAwesomeIcon className="icon" icon={faLinkedinIn} size="2x" />
+                                    </div>
+                                    <h3>LinkedIn</h3>
+                                    {/* <div className="links-button-div">
+                                        <button className="btn-links">Connect</button>
+                                    </div> */}
+                                    {/* <p>
+                                        I approach each project individually 
+                                        and always focus on the result. 
+                                    </p> */}
                                 </div>
-                                <h3>LinkedIn</h3>
-                                {/* <div className="links-button-div">
-                                    <button className="btn-links">Connect</button>
-                                </div> */}
-                                {/* <p>
-                                    I approach each project individually 
-                                    and always focus on the result. 
-                                </p> */}
                             </div>
                         </div>
                         {/* - */}
                         <div className="col-lg-3 col-md-6 col-sm-6"> 
                             <div className="box">
-                                <div className="circle">
-                                    <FontAwesomeIcon className="icon" icon={faGithub} size="2x" />
+                                <div className="links-div">
+                                    <div className="circle">
+                                        <FontAwesomeIcon className="icon" icon={faGithub} size="2x" />
+                                    </div>
+                                    <h3>Github</h3>
+                                    {/* <div className="links-button-div">
+                                        <button className="btn-links">My Code</button>
+                                    </div> */}
+                                    {/* <p>
+                                        Your website will be built with a new and
+                                        proven technologies.
+                                    </p> */}
                                 </div>
-                                <h3>Github</h3>
-                                {/* <div className="links-button-div">
-                                    <button className="btn-links">My Code</button>
-                                </div> */}
-                                {/* <p>
-                                    Your website will be built with a new and
-                                    proven technologies.
-                                </p> */}
                             </div>
                         </div>
                         {/* - */}
                         <div className="col-lg-3 col-md-6 col-sm-6"> 
                             <div className="box">
-                                <div className="circle">
-                                    <FontAwesomeIcon className="icon" icon={faMediumM} size="2x" />
+                                <div className="links-div">
+                                    <div className="circle">
+                                        <FontAwesomeIcon className="icon" icon={faMediumM} size="2x" />
+                                    </div>
+                                    <h3>Medium</h3>
+                                    {/* <div className="links-button-div">
+                                        <button className="btn-links">My Blogs</button>
+                                    </div> */}
+                                    {/* <p>
+                                        Check out my blogs about what I am 
+                                        learning, doing and discovering 
+                                    </p> */}
                                 </div>
-                                <h3>Medium</h3>
-                                {/* <div className="links-button-div">
-                                    <button className="btn-links">My Blogs</button>
-                                </div> */}
-                                {/* <p>
-                                    Check out my blogs about what I am 
-                                    learning, doing and discovering 
-                                </p> */}
                             </div>
                         </div>
                         {/* - */}
                         <div className="col-lg-3 col-md-6 col-sm-6"> 
                             <div className="box">
-                                <div className="circle">
-                                    <FontAwesomeIcon className="icon" icon={faVideo} size="2x" />
+                                <div className="links-div">
+                                    <div className="circle">
+                                        <FontAwesomeIcon className="icon" icon={faVideo} size="2x" />
+                                    </div>
+                                    <h3>Video Work</h3>
+                                    {/* <div className="links-button-div">
+                                        <button className="btn-links">Portfolio</button>
+                                    </div> */}
+                                    {/* <p>
+                                        As a filmmaker I have a keen eye for design and
+                                        I am a great stroy-teller 
+                                    </p> */}
                                 </div>
-                                <h3>Video Work</h3>
-                                {/* <div className="links-button-div">
-                                    <button className="btn-links">Portfolio</button>
-                                </div> */}
-                                {/* <p>
-                                    As a filmmaker I have a keen eye for design and
-                                    I am a great stroy-teller 
-                                </p> */}
                             </div>
                         </div>
                         {/* 

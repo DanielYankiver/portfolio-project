@@ -331,6 +331,10 @@ nav ul li {
   color: var(--body-dark-grey);
 }
 
+.links-div {
+  padding-top: 4rem;
+}
+
 
 
 /******** LINK BUTTONS **********/
