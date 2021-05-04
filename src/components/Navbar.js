@@ -5,6 +5,9 @@ import {Link} from "react-scroll";
 // REACT FONT AWESOME IMPORT
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBars } from "@fortawesome/free-solid-svg-icons"
+//RESUME 
+import Resume from '../Daniel_Yankiver_SE_Resume.pdf';
+
 
 const Navbar = () => {
     return (
@@ -14,7 +17,6 @@ const Navbar = () => {
                 <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     <FontAwesomeIcon icon={faBars} style={{ color: "#fff" }}/>
                 </button>
-
                 <div className="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul className="navbar-nav">
                         <li className="nav-item active">
@@ -38,8 +40,11 @@ const Navbar = () => {
                         <li className="nav-item">
                             <Link smooth={true} to="contact" offset={-110} className="nav-link" href="#">Contact</Link>
                         </li>    
-                        </ul>
-                    </div>
+                    </ul>
+                </div>
+                <div className="resume">
+                    <a className="resume-a"href={Resume} target="_blank">Resume</a>
+                </div>
             </div>
         </nav>
     )
