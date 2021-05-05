@@ -6,6 +6,10 @@ import { Link } from "react-scroll";
 
 import LinksCarousel from "./LinksCarousel";
 
+import { FaReact } from 'react-icons/fa';
+import { SiJavascript, SiRails, SiCss3, SiRuby, SiHtml5, SiAdobepremiere, SiAdobephotoshop } from 'react-icons/si';
+
+
 const Links = () => {
 
 
@@ -24,13 +28,6 @@ const Links = () => {
                                             <FontAwesomeIcon className="icon" icon={faLinkedinIn} size="2x" />
                                         </div>
                                         <h3>LinkedIn</h3>
-                                        {/* <div className="links-button-div">
-                                            <button className="btn-links">Connect</button>
-                                        </div> */}
-                                        {/* <p>
-                                            I approach each project individually 
-                                            and always focus on the result. 
-                                        </p> */}
                                     </div> 
                                 </div>
                             </a>
@@ -44,13 +41,6 @@ const Links = () => {
                                             <FontAwesomeIcon className="icon" icon={faGithub} size="2x" />
                                         </div>
                                         <h3>Github</h3>
-                                        {/* <div className="links-button-div">
-                                            <button className="btn-links">My Code</button>
-                                        </div> */}
-                                        {/* <p>
-                                            Your website will be built with a new and
-                                            proven technologies.
-                                        </p> */}
                                     </div>
                                 </div>
                             </a>
@@ -64,13 +54,6 @@ const Links = () => {
                                             <FontAwesomeIcon className="icon" icon={faMediumM} size="2x" />
                                         </div>
                                         <h3>Medium</h3>
-                                        {/* <div className="links-button-div">
-                                            <button className="btn-links">My Blogs</button>
-                                        </div> */}
-                                        {/* <p>
-                                            Check out my blogs about what I am 
-                                            learning, doing and discovering 
-                                        </p> */}
                                     </div>
                                 </div>
                             </a>
@@ -84,72 +67,49 @@ const Links = () => {
                                             <FontAwesomeIcon className="icon" icon={faVideo} size="2x" />
                                         </div>
                                         <h3>Video Work</h3>
-                                        {/* <div className="links-button-div">
-                                            <button className="btn-links">Portfolio</button>
-                                        </div> */}
-                                        {/* <p>
-                                            As a filmmaker I have a keen eye for design and
-                                            I am a great stroy-teller 
-                                        </p> */}
                                     </div>
                                 </a>
                             </div>
                         </div>
-                        {/* 
-                        <div className="col-lg-3 col-md-6 col-sm-6"> 
-                            <div className="box">
-                                <div className="circle">
-                                    <FontAwesomeIcon className="icon" icon={faFileCode} size="2x" />
-                                </div>
-                                <h3>Ruby</h3>
-                                <p>
-                                    Your website will be built with a new and
-                                    proven technologies.
-                                </p>
-                            </div>
-                        </div>
-                        <div className="col-lg-3 col-md-6 col-sm-6"> 
-                            <div className="box">
-                                <div className="circle">
-                                    <FontAwesomeIcon className="icon" icon={faFacebookF} size="2x" />
-                                </div>
-                                <h3>HTML</h3>
-                                <p>
-                                    Check out my blogs about what I am 
-                                    learning, doing and discovering 
-                                </p>
-                            </div>
-                        </div>
-                        <div className="col-lg-3 col-md-6 col-sm-6"> 
-                            <div className="box">
-                                <div className="circle">
-                                    <FontAwesomeIcon className="icon" icon={faGoogle} size="2x" />
-                                </div>
-                                <h3>Adobe Premiere</h3>
-                                <p>
-                                    As a filmmaker I have a keen eye for design and
-                                    I am a great stroy-teller 
-                                </p>
-                            </div>
-                        </div>
-                        <div className="col-lg-3 col-md-6 col-sm-6"> 
-                            <div className="box">
-                                <div className="circle">
-                                    <FontAwesomeIcon className="icon" icon={faGoogle} size="2x" />
-                                </div>
-                                <h3>Adobe Photoshop</h3>
-                                <p>
-                                    As a filmmaker I have a keen eye for design and
-                                    I am a great stroy-teller 
-                                </p>
-                            </div>
-                        </div>
-                        */}
                     </div>
                 </div>
-            <div className="carousel">
+            {/* <div className="carousel">
                 <LinksCarousel />
-            </div>
+            </div> */}
+                <div className="skils-icons" className="d-flex justify-content-center">
+                    <div className="skills-icons">
+                        <h1><FaReact /></h1>
+                        <h5>React</h5>
+                    </div>
+                    <div className="skills-icons">
+                        <h1><SiJavascript /></h1>
+                        <h5>Javascript</h5>
+                    </div>
+                    <div className="skills-icons">
+                        <h1><SiRuby /></h1>
+                        <h5>Ruby</h5>
+                    </div>
+                    <div className="skills-icons">
+                        <h1><SiRails /></h1>
+                        <h5>Ruby on Rails</h5>
+                    </div>
+                    <div className="skills-icons">
+                        <h1><SiCss3 /></h1>
+                        <h5>CSS</h5>
+                    </div>
+                    <div className="skills-icons">
+                        <h1><SiHtml5 /></h1>
+                        <h5>HTML</h5>
+                    </div>
+                    <div className="skills-icons">
+                        <h1><SiAdobepremiere /></h1>
+                        <h5>Adobe Premiere</h5>
+                    </div>
+                    <div className="skills-icons">
+                        <h1><SiAdobephotoshop /></h1>
+                        <h5>Adobe Photoshop</h5>
+                    </div>
+                </div>
         </div>  
     )
 }

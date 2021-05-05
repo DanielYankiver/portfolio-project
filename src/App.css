@@ -297,6 +297,11 @@ nav ul li {
   text-transform: uppercase;
 }
 
+.services h5 {
+  color: var(--dark-mode-red);
+  text-transform: uppercase;
+}
+
 .services p {
   color: var(--dark-mode-red);
   text-transform: uppercase;
@@ -387,6 +392,12 @@ button.btn-links {
   background-color: var(--body-light-grey);
   color: var(--secondary-text-white);
   transition: .2s ease-in-out;
+}
+
+/******** LINKS SKILLS ICONS **********/
+
+.skills-icons {
+  margin: 3rem;
 }
 
 
