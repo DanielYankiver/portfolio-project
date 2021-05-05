@@ -73,10 +73,10 @@ const Links = () => {
                         </div>
                     </div>
                 </div>
-            {/* <div className="carousel">
+            <div className="carousel">
                 <LinksCarousel />
-            </div> */}
-                <div className="skils-icons" className="d-flex justify-content-center">
+            </div>
+                {/* <div className="skils-icons" className="d-flex justify-content-center">
                     <div className="skills-icons">
                         <h1><FaReact /></h1>
                         <h5>React</h5>
@@ -109,7 +109,7 @@ const Links = () => {
                         <h1><SiAdobephotoshop /></h1>
                         <h5>Adobe Photoshop</h5>
                     </div>
-                </div>
+                </div> */}
         </div>  
     )
 }
