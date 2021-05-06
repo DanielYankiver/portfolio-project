@@ -117,17 +117,20 @@ nav ul li {
 .header-wrapper {
   position: relative;
   background: var(--background-black);
+  background: url(DarkMountainRange.jpg) no-repeat;
   /* background: url(wall-and-laptop-background.jpg) no-repeat; */
   /* background: url(film-photo-scratch.jpg) no-repeat; */
   /* background: url(futuristic-galaxy-background-with-neon-laser-grid.jpg) no-repeat; */
   background-size: cover;
   background-position: center;
   height: 100vh;
+  
 }
 
 .main-info {
   display: flex;
-  position: absolute;
+  /* position: absolute; */
+  padding-top: 10rem;
   top: 0;
   left: 0;
   right: 0;
@@ -149,7 +152,7 @@ nav ul li {
 
 .typed-text {
   font-size: 2rem;
-  color: var(--dark-mode-red);
+  color: var(--dark-mode-green);
 }
 
 @media(max-width: 768px) {
@@ -164,11 +167,11 @@ nav ul li {
 /****** HEADER MAIN OFFER BUTTON ******/
 
 .btn-main-offer {
-  border: 1px solid var(--dark-mode-green);
+  border: 1px solid var(--dark-mode-red);
   text-transform: uppercase;
   border-radius: 0;
   padding: 0.625rem 0.75rem 0.75rem 0.75rem;
-  color: var(--dark-mode-green);
+  color: var(--dark-mode-red);
   margin: 2rem;
   cursor: pointer;
 }
