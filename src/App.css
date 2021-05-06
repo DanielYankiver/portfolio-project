@@ -185,7 +185,7 @@ nav ul li {
 
 /****** PARTICLES JS******/
 
-.tsparticles-canvas-el {
+.particles-canvas {
   position: absolute;
   height: 100vh;
   width: 100vw;
@@ -193,9 +193,9 @@ nav ul li {
 }
 
 @media(max-width: 768px) {
-  .particles-canvas {
+  /* .particles-canvas {
     display: none;
-  }
+  } */
 }
 
 /****** HEADER CAROUSEL ******/
@@ -289,12 +289,13 @@ nav ul li {
 .services {
   text-align: center;
   padding-bottom: 2rem;
-  background: var(--body-light-grey);
+  background: var(--primary-black);
   padding-top: 2rem;
   background: url(space.jpg);
   background-size: cover;
   background-position: center;
-  height: 100vh;
+  /* height: 88vh; */
+
 }
 
 .services h1 {
@@ -340,14 +341,16 @@ nav ul li {
   border-bottom: 0.3125rem solid var(--dark-mode-green);
   padding: 0.625rem;
   margin-bottom: 1.875rem;
-  background: var(--body-dark-grey);
+  background: transparent;
   transition: 0.3s ease-in-out;
+  border: var(--dark-mode-green) solid 1px;
 }
 
 .services .box:hover {
   background: var(--dark-mode-green);
-  border-bottom: 0.3125rem solid  var(--body-dark-grey);
+  border-bottom: 0.3125rem solid  var(--primary-transparent-black);
   cursor: pointer;
+  opacity: 75%;
 }
 
 .services .box:hover .icon {
@@ -355,16 +358,16 @@ nav ul li {
 }
 
 .services .box:hover .circle {
-  background: var(--body-dark-grey);
+  background: var(--primary-transparent-black);
 }
 
 .services .box:hover h3 {
-  color: var(--body-dark-grey);
+  color: var(--primary-transparent-black);
   font-weight: bold !important;
 }
 
 .services .box:hover p {
-  color: var(--body-dark-grey);
+  color: var(--primary-transparent-black);
 }
 
 .links-div {
@@ -411,6 +414,20 @@ button.btn-links {
   margin: 3rem;
 }
 
+/****** PARTICLES JS******/
+
+.particles-space {
+  position: absolute;
+  height: 65vh;
+  width: 100vw;
+  /* z-index: 1; */
+}
+
+@media(max-width: 768px) {
+  .particles-space {
+    /* display: none; */
+  }
+}
 
 /******** LINKS CAROUSEL **********/
 
