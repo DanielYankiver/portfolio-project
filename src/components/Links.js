@@ -17,7 +17,7 @@ const Links = () => {
 
     return (
         <div id="services" className="services">
-            {/* <h1 className="py-5"></h1> */}
+            <h1 className="py-5">Links</h1>
                 <div className="container">
                     <div className="row">
                         <div className="col-lg-3 col-md-6 col-sm-6"> 
@@ -73,9 +73,9 @@ const Links = () => {
                         </div>
                     </div>
                 </div>
-            <div className="carousel">
+            {/* <div className="carousel">
                 <LinksCarousel />
-            </div>
+            </div> */}
                 {/* <div className="skils-icons" className="d-flex justify-content-center">
                     <div className="skills-icons">
                         <h1><FaReact /></h1>
