@@ -1,5 +1,6 @@
 import React from "react";
 import headshot from "../my-photo.jpg";
+import LinksCarousel from "./LinksCarousel";
 
 const About = () => {
     return (
@@ -10,6 +11,7 @@ const About = () => {
                    <div className="photo-wrap mb-5">
                        <img className="profile-img" src={headshot} alt="Headshot"/>
                    </div>
+                   <LinksCarousel className="about-carousel"/>
                </div>
                <div className="col-lg-6 col-xm-12">
                    <h1 className="about-heading">about me</h1>
