@@ -7,6 +7,7 @@ import About from './components/About';
 import Links from './components/Links';
 import Experience from './components/Experience';
 import Portfolio from './components/Portfolio';
+import Filmmaker from './components/Filmmaker';
 import Skills from './components/Skills';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
@@ -85,7 +86,8 @@ function App() {
       <Links />
       {/* <Experience /> */}
       <Portfolio />
-      <Skills />
+      <Filmmaker />
+      {/* <Skills /> */}
       <Contact />
       <Footer />
     </>

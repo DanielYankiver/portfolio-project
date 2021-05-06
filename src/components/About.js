@@ -11,7 +11,6 @@ const About = () => {
                    <div className="photo-wrap mb-5">
                        <img className="profile-img" src={headshot} alt="Headshot"/>
                    </div>
-                   <LinksCarousel className="about-carousel"/>
                </div>
                <div className="col-lg-6 col-xm-12">
                    <h1 className="about-heading">about me</h1>
@@ -25,6 +24,7 @@ const About = () => {
                        front-end and back-end development with robust user interfaces 
                        (UI) that use efficient code to solve real-world problems.
                    </p>
+                   <LinksCarousel className="about-carousel"/>
                </div>
             </div>
             </div>
