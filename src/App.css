@@ -251,6 +251,9 @@ nav ul li {
 
 #about {
   background: var(--background-black);
+  /* background-size: cover;
+  background-position: center;
+  height: 100vh; */
 }
 
 .photo-wrap {
@@ -288,6 +291,10 @@ nav ul li {
   padding-bottom: 2rem;
   background: var(--body-light-grey);
   padding-top: 2rem;
+  background: url(space.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
 }
 
 .services h1 {
