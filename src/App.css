@@ -149,7 +149,7 @@ nav ul li {
 
 .typed-text {
   font-size: 2rem;
-  color: var(--dark-mode-green);
+  color: var(--dark-mode-red);
 }
 
 @media(max-width: 768px) {
@@ -164,19 +164,19 @@ nav ul li {
 /****** HEADER MAIN OFFER BUTTON ******/
 
 .btn-main-offer {
-  border: 1px solid var(--dark-mode-red);
+  border: 1px solid var(--dark-mode-green);
   text-transform: uppercase;
   border-radius: 0;
   padding: 0.625rem 0.75rem 0.75rem 0.75rem;
-  color: var(--secondary-text-white);
+  color: var(--dark-mode-green);
   margin: 2rem;
   cursor: pointer;
 }
 
 .btn-main-offer:hover{
   text-decoration: none;
-  background-color: var(--dark-mode-red);
-  color: var(--primary-text-white);
+  background-color: var(--dark-mode-green);
+  color: var(--background-black);
   transition: .2s ease-in-out;
 }
 
