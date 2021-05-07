@@ -286,6 +286,22 @@ nav ul li {
   }
 }
 
+/* .icons-div {
+  /* display: flex;
+  padding-left: 50%; */
+/* } */ 
+
+/* .icons {
+  /* justify-content: center; */
+/* } */ 
+
+/* .skill-icons {
+  color: var(--dark-mode-green);
+  padding: 1rem;
+} */
+
+
+
 /******** ABOUT CAROUSEL **********/
 
 .about-carousel {
@@ -338,7 +354,7 @@ nav ul li {
 .carousel-root {
   margin: auto !important;
   margin-top: 3% !important;
- } 
+ }  
 
 
 

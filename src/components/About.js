@@ -1,6 +1,9 @@
 import React from "react";
 import headshot from "../my-photo.jpg";
 import LinksCarousel from "./LinksCarousel";
+import { FaReact } from 'react-icons/fa';
+import { SiJavascript, SiRails, SiCss3, SiRuby, SiHtml5, SiAdobepremiere, SiAdobephotoshop } from 'react-icons/si';
+
 
 const About = () => {
     return (
@@ -26,7 +29,57 @@ const About = () => {
                    </p>
                    <LinksCarousel className="about-carousel"/>
                </div>
-            </div>
+               {/* <div className="icon-div" className="row">
+                    <div className="icons" className="col-lg-3 col-md-6 col-sm-6">
+                        <div className="skill-icons">
+                            <h1><FaReact /></h1>
+                            <h3>React</h3>
+                        </div>
+                    </div>
+                    <div className="icons" className="col-lg-3 col-md-6 col-sm-6">
+                        <div className="skill-icons">
+                            <h1><SiJavascript /></h1>
+                            <h3>Javascript</h3>
+                        </div>
+                    </div>
+                    <div className="icons" className="col-lg-3 col-md-6 col-sm-6">
+                        <div className="skill-icons">
+                            <h1><SiRuby /></h1>
+                            <h3>Ruby</h3>
+                        </div>
+                    </div>
+                    <div className="icons" className="col-lg-3 col-md-6 col-sm-6">
+                        <div className="skill-icons">
+                            <h1><SiRails /></h1>
+                            <h3>Ruby on Rails</h3>
+                        </div>
+                    </div>
+                    <div className="icons" className="col-lg-3 col-md-6 col-sm-6">
+                        <div className="skill-icons">
+                            <h1><SiCss3 /></h1>
+                            <h3>CSS</h3>
+                        </div>
+                    </div>
+                    <div className="icons" className="col-lg-3 col-md-6 col-sm-6">
+                        <div className="skill-icons">
+                            <h1><SiHtml5 /></h1>
+                            <h3>HTML</h3>
+                        </div>
+                    </div>
+                    <div className="icons" className="col-lg-3 col-md-6 col-sm-6">
+                        <div className="skill-icons">
+                            <h1><SiAdobepremiere /></h1>
+                            <h3>Adobe Premiere</h3>
+                        </div>
+                    </div>
+                    <div className="icons" className="col-lg-3 col-md-6 col-sm-6">
+                        <div className="skill-icons">
+                            <h1><SiAdobephotoshop /></h1>
+                            <h3>Adobe Photoshop</h3>
+                        </div>                
+                    </div>
+                </div> */}
+                </div>
             </div>
         </div>
         
