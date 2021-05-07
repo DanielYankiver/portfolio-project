@@ -893,6 +893,21 @@ textarea.form-control {
   }
 }
 
+/****** PARTICLES JS******/
+
+.particles-bubbles {
+  position: absolute;
+  height: 83vh ;
+  width: 100vw;
+  /* z-index: 1; */
+}
+
+@media(max-width: 768px) {
+  .particles-bubbles {
+    /* display: none; */
+  }
+}
+
 /********************************* FOOTER *********************************/
 
 .footer {
