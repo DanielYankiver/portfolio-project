@@ -620,6 +620,10 @@ button.btn-links {
 
 .filmmaker-wrapper {
   background: var(--body-light-grey);
+  background: url(filmgrain.gif);
+  background-size: cover;
+  background-position: center;
+  /* height: 100vh; */
   padding: 3rem 0;
   /* display: flex; */
 }
