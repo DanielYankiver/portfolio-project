@@ -250,10 +250,12 @@ nav ul li {
 /********************************* ABOUT PAGE *********************************/
 
 #about {
-  background: var(--background-black);
+  background: black;
   /* background-size: cover;
-  background-position: center;
-  height: 100vh; */
+  background-position: center; */
+  /* height: 100vh; */
+  padding-top: 6rem;
+  padding-bottom: 7rem;
 }
 
 .photo-wrap {
@@ -283,6 +285,62 @@ nav ul li {
     width: 10rem;
   }
 }
+
+/******** ABOUT CAROUSEL **********/
+
+.about-carousel {
+    text-align: center;
+    max-width: 20rem;
+    margin: 0 auto 2rem auto; 
+    background: var(--body-dark-grey);
+}
+
+.linksCarousel {
+  color: var(--dark-mode-red);
+  background: transparent;
+  margin-top: -6%;
+  width: 54%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 3%;
+  padding-bottom: 8%;
+  padding-left: 5%;
+  padding-right: 5%;
+  height: 11rem;
+}
+
+.linksCarousel h1 {
+  color: var(--dark-mode-green);
+  padding-top: 0rem; 
+} 
+
+.linksCarousel h3 {
+  color: var(--dark-mode-green);
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.linksCarousel p {
+  color: var(--dark-mode-green);
+}
+
+.carousel .slide {
+  width: 10rem !important;
+  border-radius: 50%;
+}
+
+.carousel .slide {
+  background: transparent !important;
+  height: 100% !important;
+  padding-top: 2rem;
+}
+
+.carousel-root {
+  margin: auto !important;
+  margin-top: 3% !important;
+ } 
+
+
 
 /********************************* LINKS PAGE *********************************/
 
