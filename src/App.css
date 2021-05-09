@@ -312,7 +312,7 @@ nav ul li {
 }
 
 .linksCarousel {
-  color: var(--dark-mode-red);
+  color: var(--dark-mode-green);
   background: transparent;
   margin-top: -6%;
   width: 54%;
@@ -327,10 +327,10 @@ nav ul li {
 
 .linksCarousel h1 {
   color: var(--dark-mode-green);
-  padding-top: 0rem; 
+  padding-top: 0rem;
 } 
 
-.linksCarousel h3 {
+.linksCarousel h5 {
   color: var(--dark-mode-green);
   font-weight: 600;
   text-transform: uppercase;
@@ -368,7 +368,7 @@ nav ul li {
   background: url(space.jpg);
   background-size: cover;
   background-position: center;
-  /* height: 88vh; */
+  /* height: 165vh; */
 
 }
 
@@ -672,6 +672,7 @@ button.btn-links {
 .portfolio-wrapper {
   background: var(--body-dark-grey);
   padding: 3rem 0;
+  height: 70vh;
   /* display: flex; */
 }
 
@@ -869,7 +870,10 @@ button.btn-links {
 
 .contact {
   background: var(--navbar-dark-grey);
+  background: url(underwater.jpg);
   padding: 3rem 0;
+  background-size: cover;
+  background-position: center;
 }
 
 .contact h1 {
@@ -960,6 +964,8 @@ textarea.form-control {
 @media(max-width: 768px) {
   .contact {
     overflow-x: hidden;
+    background-size: 100rem;
+    background-position: center;
   }
 
   .contact .container {

@@ -193,13 +193,13 @@ function App() {
       {/* <Experience /> */}
       <Portfolio />
       <Filmmaker />
-      {/* <Skills /> */}
+      <Skills />
       <Particles 
         className="particles-bubbles"
         params={{
           particles: {
               number: {
-                  value: 160,
+                  value: 200,
                   density: {
                       enable: false
                   }
@@ -222,30 +222,30 @@ function App() {
                   out_mode: "out"
               }
           },
-          interactivity: {
-              events: {
-                  onhover: {
-                      enable: true,
-                      mode: "bubble"
-                  },
-                  onclick: {
-                      enable: true,
-                      mode: "repulse"
-                  }
-              },
-              modes: {
-                  bubble: {
-                      distance: 250,
-                      duration: 2,
-                      size: 0,
-                      opacity: 0
-                  },
-                  repulse: {
-                      distance: 400,
-                      duration: 4
-                  }
-              }
-          }
+          // interactivity: {
+          //     events: {
+          //         onhover: {
+          //             enable: true,
+          //             mode: "bubble"
+          //         },
+          //         onclick: {
+          //             enable: true,
+          //             mode: "repulse"
+          //         }
+          //     },
+          //     modes: {
+          //         bubble: {
+          //             distance: 250,
+          //             duration: 2,
+          //             size: 0,
+          //             opacity: 0
+          //         },
+          //         repulse: {
+          //             distance: 400,
+          //             duration: 4
+          //         }
+          //     }
+          // }
       }} 
       />
       <Contact />

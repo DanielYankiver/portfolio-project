@@ -12,7 +12,7 @@ const LinksCarousel = () => {
                 infiniteLoop={true}
                 showThumbs={false}
                 showStatus={false}
-                autoPlay={true}
+                // autoPlay={true}
                 interval={3000}
             >
                 <>

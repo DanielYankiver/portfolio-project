@@ -27,7 +27,7 @@ const About = () => {
                        front-end and back-end development with robust user interfaces 
                        (UI) that use efficient code to solve real-world problems.
                    </p>
-                   <LinksCarousel className="about-carousel"/>
+                   {/* <LinksCarousel className="about-carousel"/> */}
                </div>
                {/* <div className="icon-div" className="row">
                     <div className="icons" className="col-lg-3 col-md-6 col-sm-6">
