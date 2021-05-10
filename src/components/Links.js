@@ -110,6 +110,7 @@ const Links = () => {
                         <h5>Adobe Photoshop</h5>
                     </div>
                 </div> */}
+                
         </div>  
     )
 }
