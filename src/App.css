@@ -175,11 +175,12 @@ nav ul li {
   color: var(--dark-mode-red);
   margin: 2rem;
   cursor: pointer;
+  z-index: 1;
 }
 
 .btn-main-offer:hover{
   text-decoration: none;
-  background-color: var(--dark-mode-green);
+  background-color: var(--dark-mode-red);
   color: var(--background-black);
   transition: .2s ease-in-out;
 }
