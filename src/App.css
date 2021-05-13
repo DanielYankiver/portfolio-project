@@ -814,7 +814,7 @@ button.btn-links {
 }
 
 .testimonials h1 {
-  color: var(--dark-mode-red);
+  color: var(--dark-mode-green);
   padding: 3rem 0;
   text-transform: uppercase;
 }
@@ -828,7 +828,7 @@ button.btn-links {
 
 
 .myCarousel {
-  color: var(--primary-white);
+  color: var(--dark-mode-green);
   background: transparent;
   margin-top: -6%;
   width: 54%;
@@ -842,7 +842,7 @@ button.btn-links {
 }
 
 .myCarousel h3 {
-  color: var(--secondary-text-white);
+  color: var(--dark-mode-green);
   font-weight: 600;
   text-transform: uppercase;
 }
