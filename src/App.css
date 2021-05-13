@@ -997,7 +997,7 @@ textarea.form-control {
 /********************************* FOOTER *********************************/
 
 .footer {
-  background: var(--background-black);
+  background: var(--primary-black);
   color: var(--dark-mode-green);
   padding: 3rem;
 }
