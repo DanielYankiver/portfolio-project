@@ -366,7 +366,7 @@ nav ul li {
   padding-bottom: 2rem;
   background: var(--primary-black);
   padding-top: 2rem;
-  background: url(space.jpg);
+  /* background: url(space.jpg); */
   background-size: cover;
   background-position: center;
   /* height: 165vh; */
