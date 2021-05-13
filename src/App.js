@@ -83,11 +83,11 @@ function App() {
       <Navbar />
       <Header />
       <About />
+      <Skills />
       <Links />
       <Experience />
       <Portfolio />
       <Filmmaker />
-      <Skills />
       <Particles 
         className="particles-bubbles"
         params={{
