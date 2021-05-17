@@ -84,7 +84,7 @@ function App() {
       <Header />
       <About />
       <Skills />
-      <Links />
+      {/* <Links /> */}
       <Experience />
       <Portfolio />
       <Filmmaker />
