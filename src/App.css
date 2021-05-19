@@ -674,14 +674,14 @@ button.btn-links {
 .portfolio-wrapper {
   background: var(--navbar-dark-grey);
   position: relative;
-  padding: 3rem 0;
+  /* padding: 3rem 0; */
   padding-bottom: 6rem;
 }
 
 @media(min-width: 768px){
   .portfolio-wrapper{
-    padding: 4rem 0;
-    padding-bottom: 8rem;
+    padding: 0rem 0;
+    padding-bottom: 0rem;
   }
  }
 
@@ -990,26 +990,29 @@ button.btn-links {
 /********************************* FILMMKAER *********************************/
 
 .filmmaker-wrapper {
-  background: var(--body-dark-grey);
+  background: var(--navbar-dark-grey);
   /* background: url(filmgrain.gif); */
   background-size: cover;
   background-position: center;
   /* height: 70vh;
   padding: 3rem 0; */
   /* display: flex; */
+  padding-bottom: 2rem;
 }
 
 .filmmaker-wrapper h1 {
   color: var(--dark-mode-green);
-
+  padding: 1rem 0;
+  text-transform: uppercase;
+  margin: 0rem !important;
 }
+
 
 .reel {
   /* width: 30rem; */
   /* border: .1rem solid var(--dark-mode-green);
   padding: 0 0.3rem; */
 }
-
 /********************************* SKILLS *********************************/
 
 
