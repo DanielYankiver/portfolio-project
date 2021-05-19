@@ -87,7 +87,7 @@ function App() {
       {/* <Links /> */}
       <Experience />
       <Portfolio />
-      <Filmmaker />
+      {/* <Filmmaker /> */}
       <Particles 
         className="particles-bubbles"
         params={{

@@ -990,17 +990,18 @@ button.btn-links {
 /********************************* FILMMKAER *********************************/
 
 .filmmaker-wrapper {
-  background: var(--body-light-grey);
-  background: url(filmgrain.gif);
+  background: var(--body-dark-grey);
+  /* background: url(filmgrain.gif); */
   background-size: cover;
   background-position: center;
-  height: 70vh;
-  padding: 3rem 0;
+  /* height: 70vh;
+  padding: 3rem 0; */
   /* display: flex; */
 }
 
 .filmmaker-wrapper h1 {
   color: var(--dark-mode-green);
+
 }
 
 .reel {

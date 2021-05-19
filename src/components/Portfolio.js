@@ -10,6 +10,7 @@ import { faGithub } from "@fortawesome/free-brands-svg-icons"
 // REACT POPUPBOX
 import {PopupboxManager, PopupboxContainer} from "react-popupbox"
 import "react-popupbox/dist/react-popupbox.css"
+import Filmmaker from './Filmmaker';
 
 const Portfolio = () => {
 
@@ -249,6 +250,7 @@ const Portfolio = () => {
                 </div>
             </div>
             <PopupboxContainer />
+            <Filmmaker />
             {/* <h1 className="text-uppercase text-center py-5">Filmmaker Reel</h1>
             <div className="image-box-wrapper row justify-content-center">
                 <iframe
