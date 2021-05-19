@@ -15,7 +15,7 @@ const Navbar = () => {
             <div className="container">
                 <Link smooth={true} to="home" offset={-110} className="navbar-brand"><img className="logo" src={minLogo} alt="logo"/></Link>
                 <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                    <FontAwesomeIcon icon={faBars} style={{ color: "#fff" }}/>
+                    <FontAwesomeIcon icon={faBars} style={{ color: "#B3B3B3" }}/>
                 </button>
                 <div className="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul className="navbar-nav">
