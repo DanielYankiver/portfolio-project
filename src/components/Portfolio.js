@@ -1,6 +1,6 @@
 import React from 'react'
-import netflix from "../images/netflix.png";
-import cityGuide from "../images/city-guide-app.png";
+import rocketfuel from "../images/rocketfuel.png";
+import yourseum from "../images/yourseum.png";
 import portfolio from "../images/portfolio.png";
 import taskManager from "../images/task-manager.png";
 // FONTAWESOME IMPORTS 
@@ -14,21 +14,20 @@ import "react-popupbox/dist/react-popupbox.css"
 const Portfolio = () => {
 
     // Rocket Fuel
-    const openPopupboxNetflix = () => {
+    const openPopupBoxRocketFuel = () => {
         const content = (
             <>
                 <img 
                     className="portfolio-image-popupbox" 
-                    src={netflix} 
+                    src={rocketfuel} 
                     alt="Rocket Fuel Project..."
                 />
                 <p>
-                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
-                    Quasi ipsa sint quis. Iure velit incidunt corporis alias 
-                    aliquam repudiandae? Sed.
+                    A React application that brings you aboard a spaceship where you 
+                    can visit planets, parts of the universe and beyond. 
                 </p>
                 <div className="popup-icons">
-                    <div className="hyper-link" onClick={() => window.open("https://github.com/DanielYankiver/rocket-fuel-frontend", "_blank")}>
+                    <div className="hyper-link" onClick={() => window.open("https://rocket-fuel.netlify.app/", "_blank")}>
                         <div className="popup-links">
                             <FontAwesomeIcon className="popup-icon" icon={faLaptopCode} />
                             Live Site
@@ -69,39 +68,38 @@ const Portfolio = () => {
     }
    
     // Yourseum 
-    const openPopupboxCityGuide = () => {
+    const openPopupboxYourseum = () => {
         const content = (
             <>
                 <img 
                     className="portfolio-image-popupbox" 
-                    src={cityGuide} 
-                    alt="City Guide Project..."
+                    src={yourseum} 
+                    alt="Yourseum..."
                 />
                 <p>
-                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
-                    Quasi ipsa sint quis. Iure velit incidunt corporis alias 
-                    aliquam repudiandae? Sed.
+                A React application that takes favorite masterpieces out of the 
+                museum and places curated selections on a users screen. 
                 </p>
                 <div className="popup-icons">
-                    <div className="hyper-link" onClick={() => window.open("https://github.com/DanielYankiver/rocket-fuel-frontend", "_blank")}>
+                    <div className="hyper-link" onClick={() => window.open("https://yourseum.netlify.app/", "_blank")}>
                         <div className="popup-links">
                             <FontAwesomeIcon className="popup-icon" icon={faLaptopCode} />
                             Live Site
                         </div>
                     </div>
-                    <div className="hyper-link" onClick={() => window.open("https://www.youtube.com/watch?v=k1HXlsCTqyE", "_blank")}>
+                    <div className="hyper-link" onClick={() => window.open("https://www.youtube.com/watch?v=7yLNN42_IxE", "_blank")}>
                         <div className="popup-links">
                             <FontAwesomeIcon className="popup-icon" icon={faPlayCircle} />
                             Demo
                         </div>
                     </div>
-                    <div className="hyper-link" onClick={() => window.open("https://github.com/DanielYankiver/rocket-fuel-frontend", "_blank")}>
+                    <div className="hyper-link" onClick={() => window.open("https://github.com/DanielYankiver/yourseum_frontend", "_blank")}>
                         <div className="popup-links">
                             <FontAwesomeIcon className="popup-icon" icon={faGithub} />
                             Frontend
                         </div>
                     </div>
-                    <div className="hyper-link" onClick={() => window.open("https://github.com/DanielYankiver/rocket-fuel-backend" , "_blank")}>
+                    <div className="hyper-link" onClick={() => window.open("https://github.com/DanielYankiver/yourseum_backend" , "_blank")}>
                         <div className="popup-links">
                             <FontAwesomeIcon className="popup-icon" icon={faGithub} />
                             Backend
@@ -115,7 +113,7 @@ const Portfolio = () => {
             config: {
                 titleBar: {
                     enable: true,
-                    text: "City Guide Project"
+                    text: "Yourseum"
                 },
                 fadeIn: true,
                 fadeInSpeed: 500
@@ -244,14 +242,14 @@ const Portfolio = () => {
             <div className="container">
                 <h1 className="text-uppercase text-center py-5">portfolio</h1>
                 <div className="image-box-wrapper row justify-content-center">
-                    <div className="portfolio-image-box" onClick={openPopupboxNetflix}>
-                        <img className="portfolio-image" src={netflix} alt="Netflix Clone Project..." />
+                    <div className="portfolio-image-box" onClick={openPopupBoxRocketFuel}>
+                        <img className="portfolio-image" src={rocketfuel} alt="Rocket Fuel..." />
                         <div className="overflow"></div>
                         <FontAwesomeIcon className="portfolio-icon" icon={faSearchPlus} />
                     </div>
                     {/* - */}
-                    <div className="portfolio-image-box" onClick={openPopupboxCityGuide}>
-                        <img className="portfolio-image" src={cityGuide} alt="City Guide Project..." />
+                    <div className="portfolio-image-box" onClick={openPopupboxYourseum}>
+                        <img className="portfolio-image" src={yourseum} alt="Yourseum..." />
                         <div className="overflow"></div>
                         <FontAwesomeIcon className="portfolio-icon" icon={faSearchPlus} />
                     </div>
