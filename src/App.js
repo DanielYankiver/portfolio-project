@@ -83,10 +83,10 @@ function App() {
       <Navbar />
       <Header />
       <About />
+      <Portfolio />
       <Skills />
       {/* <Links /> */}
       {/* <Experience /> */}
-      <Portfolio />
       {/* <Filmmaker /> */}
       <Particles 
         className="particles-bubbles"
