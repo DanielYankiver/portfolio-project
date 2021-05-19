@@ -365,7 +365,7 @@ nav ul li {
 .services {
   text-align: center;
   padding-bottom: 0rem;
-  background: var(--background-black);
+  background: var(--body-dark-grey);
   padding-top: 0rem;
   /* background: url(space.jpg); */
   background-size: cover;
@@ -672,7 +672,7 @@ button.btn-links {
 /********************************* PORTFOLIO *********************************/
 
 .portfolio-wrapper {
-  background: var(--body-dark-grey);
+  background: var(--navbar-dark-grey);
   position: relative;
   /* padding: 3rem 0; */
   padding-bottom: 6rem;
@@ -1002,7 +1002,7 @@ button.btn-links {
 /********************************* FILMMKAER *********************************/
 
 .filmmaker-wrapper {
-  background: var(--body-dark-grey);
+  background: var(--navbar-dark-grey);
   /* background: url(filmgrain.gif); */
   background-size: cover;
   background-position: center;
@@ -1032,7 +1032,7 @@ button.btn-links {
 .testimonials {
   /* background-image: url(dark-wall-of-code.jpg); */
   background-size: cover;
-  background-color: var(--background-black);
+  background-color: var(--body-dark-grey);
   text-align: center;
   padding-top: 1rem;
   padding-bottom: 1rem;
@@ -1103,8 +1103,8 @@ button.btn-links {
 /********************************* CONTACT *********************************/
 
 .contact {
-  background: var(--navbar-dark-grey);
-  background: url(underwater.jpg);
+  background: var(--body-dark-grey);
+  /* background: url(underwater.jpg); */
   padding: 3rem 0;
   background-size: cover;
   background-position: center;
@@ -1117,7 +1117,7 @@ button.btn-links {
 }
 
 .contact p {
-  color: var(--dark-mode-red);
+  color: var(--dark-mode-green);
   font-size: 1.2rem;
 }
 
@@ -1184,13 +1184,13 @@ textarea.form-control {
 
 .error-message {
   color: var(--primary-text-white);
-  background: var(--dark-mode-red);
+  background: var(--dark-mode-green);
   text-align: left;
 }
 
 .success-message {
   font-weight: 900;
-  color: var(--dark-mode-purple);
+  color: var(--secondary-text-white);
 }
 
 /****** MEDIA  ******/

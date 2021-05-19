@@ -88,7 +88,17 @@ function App() {
       {/* <Links /> */}
       {/* <Experience /> */}
       {/* <Filmmaker /> */}
-      <Particles 
+      <Contact />
+      <Footer />
+    </>
+  );
+}
+
+export default App;
+
+// PARTICLE BUBBLES 
+
+{/* <Particles 
         className="particles-bubbles"
         params={{
           particles: {
@@ -116,39 +126,8 @@ function App() {
                   out_mode: "out"
               }
           },
-          // interactivity: {
-          //     events: {
-          //         onhover: {
-          //             enable: true,
-          //             mode: "bubble"
-          //         },
-          //         onclick: {
-          //             enable: true,
-          //             mode: "repulse"
-          //         }
-          //     },
-          //     modes: {
-          //         bubble: {
-          //             distance: 250,
-          //             duration: 2,
-          //             size: 0,
-          //             opacity: 0
-          //         },
-          //         repulse: {
-          //             distance: 400,
-          //             duration: 4
-          //         }
-          //     }
-          // }
-      }} 
-      />
-      <Contact />
-      <Footer />
-    </>
-  );
-}
-
-export default App;
+          
+      }}  */}
 
 // PARTICLES SPACE
 
@@ -326,3 +305,4 @@ params={{
       }
   }
 }} /> */}
+
