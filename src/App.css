@@ -674,7 +674,7 @@ button.btn-links {
 .portfolio-wrapper {
   background: var(--body-dark-grey);
   padding: 3rem 0;
-  height: 70vh;
+  /* height: 70vh; */
   /* display: flex; */
 }
 
