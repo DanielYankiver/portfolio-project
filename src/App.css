@@ -696,7 +696,7 @@ button.btn-links {
 
 #portfolio-overlap {
   margin-left: -353px;
-  color: var(--primary-navy);
+  color: var(--dark-mode-green);
 }
 
 .portfolio-image{
@@ -711,27 +711,6 @@ button.btn-links {
   margin: 1rem;
 }
 
-/********************************* FILMMKAER *********************************/
-
-.filmmaker-wrapper {
-  background: var(--body-light-grey);
-  background: url(filmgrain.gif);
-  background-size: cover;
-  background-position: center;
-  height: 70vh;
-  padding: 3rem 0;
-  /* display: flex; */
-}
-
-.filmmaker-wrapper h1 {
-  color: var(--dark-mode-green);
-}
-
-.reel {
-  /* width: 30rem; */
-  /* border: .1rem solid var(--dark-mode-green);
-  padding: 0 0.3rem; */
-}
 
 /****** OVERFLOW BOX ******/
 
@@ -767,6 +746,7 @@ button.btn-links {
 .portfolio-image-box:hover .portfolio-icon {
   opacity: .7;
   transition: 0.3s ease-in-out;
+  color: var(--dark-mode-turquoise);
   cursor: pointer;
 }
 
@@ -775,7 +755,7 @@ button.btn-links {
   opacity: 0;
   margin-left: -8rem;
   margin-top: 3.6rem;
-  color: var(--primary-aqua);
+  color: var(--dark-mode-green);
   font-size: 1.5rem;
  }
 
@@ -808,14 +788,18 @@ button.btn-links {
  }
 
 
-/*------------------------ POPUP ------------------------*/
+/******************** POPUP ********************/
+
 .popupbox-wrapper{
   margin-top: 4rem;
+  background-color: var(--background-black) !important;
 }
 
 .popupbox-titleBar{
   padding-top: 1px !important;
-  padding-bottom: 1px !important
+  padding-bottom: 1px !important;
+  background-color: var(--body-light-grey);
+  color: var(--dark-mode-green);
 }
 
 .popupbox-btn--close{
@@ -824,12 +808,13 @@ button.btn-links {
 
 .popupbox-content{
   padding: .6rem 1rem !important;
+  background-color: var(--body-dark-grey);
 }
 
 .portfolio-image-popupbox {
   width: 45rem;
   padding: 0.5rem; 
-  border: .025rem solid var(--primary-grey);
+  border: .025rem solid var(--dark-mode-green);
   border-radius: .25rem;
 }
 
@@ -838,32 +823,22 @@ button.btn-links {
   font-size: 1.5rem;
 }
 
+.popupbox p{
+  color: var(--dark-mode-green);
+  margin: .5rem;
+}
+
 .popup-desc{
   font-size: .88rem;
   width: 45rem;
-  margin: .5rem 0;
+  margin: .25rem 0;
   margin-bottom: .3rem;
 }
 
-.tech-used{
-  margin-bottom: .3rem;
-  font-size: .7rem;
-  font-family: 'Roboto Mono', monospace;
-}
-
-.tech-used span{
-  margin: 0 .8rem
-}
-
-.tech-used span::before{
-  content: "ᐅ";
-  margin-right: .2rem;
-  color: var(--primary-orange);
-}
 
 .hyper-link {
   cursor: pointer;
-  color: black;
+  color: var(--dark-mode-red);
   margin: 0 1rem;
   font-size: 1rem;
 }
@@ -871,7 +846,13 @@ button.btn-links {
 .hyper-link:hover{
   text-decoration: none;
   transition: 0.3s ease-in-out;
-  color: var(--dark-mode-turquoise);
+  color: var(--dark-mode-green);
+}
+
+.popup-icon:hover{
+  text-decoration: none;
+  transition: 0.3s ease-in-out;
+  color: var(--dark-mode-green);
 }
 
 .popup-icons {
@@ -881,7 +862,7 @@ button.btn-links {
 
 .popup-icon {
   margin-right: .25rem;
-  color: var(--dark-mode-green);
+  color: var(--dark-mode-red);
 }
 
 .popup-links span{
@@ -900,14 +881,6 @@ button.btn-links {
     width: 100%;
     font-size: .75rem;
   }
-
-  .tech-used{
-    font-size: .58rem;
-  }
-  
-  .tech-used span{
-    margin: 0 .7rem
-  }
 }
 
 @media(max-width: 768px){
@@ -920,18 +893,6 @@ button.btn-links {
     font-size: .61rem;
     width: 100%;
     margin: .25rem 0;
-  }
-
-  .tech-used{
-    font-size: .45rem;
-  }
-
-  .tech-used span::before{
-    margin-right: .1rem;
-  }
-  
-  .tech-used span{
-    margin: 0 .25rem
   }
 
   .popup-links{
@@ -1025,6 +986,28 @@ button.btn-links {
     width: 30%;
   }
 } */
+
+/********************************* FILMMKAER *********************************/
+
+.filmmaker-wrapper {
+  background: var(--body-light-grey);
+  background: url(filmgrain.gif);
+  background-size: cover;
+  background-position: center;
+  height: 70vh;
+  padding: 3rem 0;
+  /* display: flex; */
+}
+
+.filmmaker-wrapper h1 {
+  color: var(--dark-mode-green);
+}
+
+.reel {
+  /* width: 30rem; */
+  /* border: .1rem solid var(--dark-mode-green);
+  padding: 0 0.3rem; */
+}
 
 /********************************* SKILLS *********************************/
 
