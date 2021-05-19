@@ -100,17 +100,18 @@ nav ul li {
 
 .resume-a {
   text-decoration: none;
-  color: var(--dark-mode-green);
+  color: var(--secondary-text-white);
   border: .03rem solid ;
-  border-color: var(--dark-mode-green);
+  border-color: var(--secondary-text-white);
   padding: .5rem;
   margin-right: 1.5rem;
 }
 
 .resume-a:hover {
   text-decoration: none;
-  color: var(--dark-mode-turquoise);
-  border-color: var(--dark-mode-turquoise);
+  color: var(--navbar-dark-grey);
+  border-color: var(--secondary-text-white);
+  background-color: var(--secondary-text-white);
 }
  
 /********************************* HEADER *********************************/
@@ -168,11 +169,11 @@ nav ul li {
 /****** HEADER MAIN OFFER BUTTON ******/
 
 .btn-main-offer {
-  border: 1px solid var(--dark-mode-green);
+  border: 1px solid var(--secondary-text-white);
   text-transform: uppercase;
   border-radius: 0;
   padding: 0.625rem 0.75rem 0.75rem 0.75rem;
-  color: var(--dark-mode-green);
+  color: var(--secondary-text-white);
   margin: 2rem;
   cursor: pointer;
   z-index: 1;
@@ -180,7 +181,7 @@ nav ul li {
 
 .btn-main-offer:hover{
   text-decoration: none;
-  background-color: var(--dark-mode-green);
+  background-color: var(--secondary-text-white);
   color: var(--background-black);
   transition: .2s ease-in-out;
 }
@@ -1103,7 +1104,7 @@ button.btn-links {
 /********************************* CONTACT *********************************/
 
 .contact {
-  background: var(--body-dark-grey);
+  background: var(--background-black);
   /* background: url(underwater.jpg); */
   padding: 3rem 0;
   background-size: cover;
@@ -1120,6 +1121,8 @@ button.btn-links {
   color: var(--dark-mode-green);
   font-size: 1.2rem;
 }
+
+
 
 /****** INPUTS  ******/
 
