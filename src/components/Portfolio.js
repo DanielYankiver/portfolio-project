@@ -1,8 +1,8 @@
 import React from 'react'
 import rocketfuel from "../images/rocketfuel.png";
 import yourseum from "../images/yourseum.png";
-import portfolio from "../images/portfolio.png";
-import taskManager from "../images/task-manager.png";
+import iQueue from "../images/iQueue.png";
+import friendSend from "../images/friendsend.png";
 // FONTAWESOME IMPORTS 
 import { FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 import { faSearchPlus, faLaptopCode, faPlayCircle } from "@fortawesome/free-solid-svg-icons"
@@ -121,40 +121,33 @@ const Portfolio = () => {
         })
     }
     
-    // Portfolio Project
-    const openPopupboxPortfolio = () => {
+    // iQueue
+    const openPopupboxIQueue = () => {
         const content = (
             <>
                 <img 
                     className="portfolio-image-popupbox" 
-                    src={portfolio} 
-                    alt="Portfolio Project..."
+                    src={iQueue} 
+                    alt="iQueue"
                 />
                 <p>
-                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
-                    Quasi ipsa sint quis. Iure velit incidunt corporis alias 
-                    aliquam repudiandae? Sed.
+                    A single page  application that allows users to make a custom queue of 
+                    movies/shows and see what platform they are streaming on. 
                 </p>
                 <div className="popup-icons">
-                    <div className="hyper-link" onClick={() => window.open("https://github.com/DanielYankiver/rocket-fuel-frontend", "_blank")}>
-                        <div className="popup-links">
-                            <FontAwesomeIcon className="popup-icon" icon={faLaptopCode} />
-                            Live Site
-                        </div>
-                    </div>
-                    <div className="hyper-link" onClick={() => window.open("https://www.youtube.com/watch?v=k1HXlsCTqyE", "_blank")}>
+                    <div className="hyper-link" onClick={() => window.open("https://www.youtube.com/watch?v=ilGNd3QnpZQ", "_blank")}>
                         <div className="popup-links">
                             <FontAwesomeIcon className="popup-icon" icon={faPlayCircle} />
                             Demo
                         </div>
                     </div>
-                    <div className="hyper-link" onClick={() => window.open("https://github.com/DanielYankiver/rocket-fuel-frontend", "_blank")}>
+                    <div className="hyper-link" onClick={() => window.open("https://github.com/DanielYankiver/IQueue_frontend", "_blank")}>
                         <div className="popup-links">
                             <FontAwesomeIcon className="popup-icon" icon={faGithub} />
                             Frontend
                         </div>
                     </div>
-                    <div className="hyper-link" onClick={() => window.open("https://github.com/DanielYankiver/rocket-fuel-backend" , "_blank")}>
+                    <div className="hyper-link" onClick={() => window.open("https://github.com/DanielYankiver/IQueue_backend" , "_blank")}>
                         <div className="popup-links">
                             <FontAwesomeIcon className="popup-icon" icon={faGithub} />
                             Backend
@@ -168,7 +161,7 @@ const Portfolio = () => {
             config: {
                 titleBar: {
                     enable: true,
-                    text: "Portfolio Project "
+                    text: "iQueue"
                 },
                 fadeIn: true,
                 fadeInSpeed: 500
@@ -177,42 +170,30 @@ const Portfolio = () => {
     }
     
     // Task Manager Project
-    const openPopupboxTaskManager = () => {
+    const openPopupboxFriendSend = () => {
         const content = (
             <>
                 <img 
                     className="portfolio-image-popupbox" 
-                    src={taskManager} 
-                    alt="Task Manager Project..."
+                    src={iQueue} 
+                    alt="iQueue..."
                 />
                 <p>
-                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
-                    Quasi ipsa sint quis. Iure velit incidunt corporis alias 
-                    aliquam repudiandae? Sed.
+                    Schedule texts to friends and family on their birthday 
+                    and other special days. Integrated Twilio API to send 
+                    automated messages to contacts.
                 </p>
                 <div className="popup-icons">
-                    <div className="hyper-link" onClick={() => window.open("https://github.com/DanielYankiver/rocket-fuel-frontend", "_blank")}>
-                        <div className="popup-links">
-                            <FontAwesomeIcon className="popup-icon" icon={faLaptopCode} />
-                            Live Site
-                        </div>
-                    </div>
-                    <div className="hyper-link" onClick={() => window.open("https://www.youtube.com/watch?v=k1HXlsCTqyE", "_blank")}>
+                    <div className="hyper-link" onClick={() => window.open("https://www.youtube.com/watch?v=06UijRSIz6Q", "_blank")}>
                         <div className="popup-links">
                             <FontAwesomeIcon className="popup-icon" icon={faPlayCircle} />
                             Demo
                         </div>
                     </div>
-                    <div className="hyper-link" onClick={() => window.open("https://github.com/DanielYankiver/rocket-fuel-frontend", "_blank")}>
+                    <div className="hyper-link" onClick={() => window.open("https://github.com/DanielYankiver/Forget-Me-Not", "_blank")}>
                         <div className="popup-links">
                             <FontAwesomeIcon className="popup-icon" icon={faGithub} />
-                            Frontend
-                        </div>
-                    </div>
-                    <div className="hyper-link" onClick={() => window.open("https://github.com/DanielYankiver/rocket-fuel-backend" , "_blank")}>
-                        <div className="popup-links">
-                            <FontAwesomeIcon className="popup-icon" icon={faGithub} />
-                            Backend
+                            Github
                         </div>
                     </div>
                 </div>
@@ -254,14 +235,14 @@ const Portfolio = () => {
                         <FontAwesomeIcon className="portfolio-icon" icon={faSearchPlus} />
                     </div>
                     {/* - */}
-                    <div className="portfolio-image-box" onClick={openPopupboxPortfolio}>
-                        <img className="portfolio-image" src={portfolio} alt="Portfolio Project..." />
+                    <div className="portfolio-image-box" onClick={openPopupboxIQueue}>
+                        <img className="portfolio-image" src={iQueue} alt="Portfolio Project..." />
                         <div className="overflow"></div>
                         <FontAwesomeIcon className="portfolio-icon" icon={faSearchPlus} />
                     </div>
                     {/* - */}
-                    <div className="portfolio-image-box" onClick={openPopupboxTaskManager}>
-                        <img className="portfolio-image" src={taskManager} alt="Task Manager React and Redux Project..." />
+                    <div className="portfolio-image-box" onClick={openPopupboxFriendSend}>
+                        <img className="portfolio-image" src={friendSend} alt="Task Manager React and Redux Project..." />
                         <div className="overflow"></div>
                         <FontAwesomeIcon className="portfolio-icon" icon={faSearchPlus} />
                     </div>
