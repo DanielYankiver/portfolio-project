@@ -13,7 +13,7 @@ const SkillsCarousel = () => {
                 showThumbs={false}
                 showStatus={false}
                 autoPlay={true}
-                interval={3000}
+                interval={1500}
             >
                 <>
                     <div className="myCarousel">
@@ -35,7 +35,7 @@ const SkillsCarousel = () => {
                 </>
                 <>
                     <div className="myCarousel">
-                        <h3><SiRails /></h3>
+                        <h3 className="rails"><SiRails /></h3>
                         <h3>Ruby on Rails</h3>
                     </div>
                 </>
@@ -54,13 +54,13 @@ const SkillsCarousel = () => {
                 <>
                     <div className="myCarousel">
                         <h3><SiAdobepremiere /></h3>
-                        <h3>Adobe Premiere</h3>
+                        <h3>Premiere</h3>
                     </div>
                 </>
                 <>
                     <div className="myCarousel">
                         <h3><SiAdobephotoshop /></h3>
-                        <h3>Adobe Photoshop</h3>
+                        <h3>Photoshop</h3>
                     </div>
                 </>
             </Carousel>
