@@ -364,9 +364,9 @@ nav ul li {
 
 .services {
   text-align: center;
-  padding-bottom: 2rem;
+  padding-bottom: 0rem;
   background: var(--background-black);
-  padding-top: 2rem;
+  padding-top: 0rem;
   /* background: url(space.jpg); */
   background-size: cover;
   background-position: center;
