@@ -672,7 +672,7 @@ button.btn-links {
 /********************************* PORTFOLIO *********************************/
 
 .portfolio-wrapper {
-  background: var(--body-dark-grey);
+  background: var(--navbar-dark-grey);
   position: relative;
   padding: 3rem 0;
   padding-bottom: 6rem;
