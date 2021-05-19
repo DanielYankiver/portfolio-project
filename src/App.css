@@ -169,11 +169,11 @@ nav ul li {
 /****** HEADER MAIN OFFER BUTTON ******/
 
 .btn-main-offer {
-  border: 1px solid var(--secondary-text-white);
+  border: 1px solid var(--dark-mode-green);
   text-transform: uppercase;
   border-radius: 0;
   padding: 0.625rem 0.75rem 0.75rem 0.75rem;
-  color: var(--secondary-text-white);
+  color: var(--dark-mode-green);
   margin: 2rem;
   cursor: pointer;
   z-index: 1;
@@ -181,7 +181,7 @@ nav ul li {
 
 .btn-main-offer:hover{
   text-decoration: none;
-  background-color: var(--secondary-text-white);
+  background-color: var(--dark-mode-green);
   color: var(--background-black);
   transition: .2s ease-in-out;
 }
@@ -1233,18 +1233,18 @@ textarea.form-control {
 
 .footer {
   background: var(--primary-black);
-  color: var(--dark-mode-green);
+  color: var(--secondary-text-white);
   padding: 3rem;
 }
 
 .footer a {
   text-decoration: none;
-  color: var(--dark-mode-green);
+  color: var(--primary-dark-grey);
 }
 
 .footer a:hover {
   text-decoration: none;
-  color: var(--dark-mode-turquoise);
+  color: var(--secondary-text-white);
   cursor: pointer;
 }
 
