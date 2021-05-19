@@ -43,17 +43,27 @@ const Portfolio = () => {
                 </a>
             </>
         )
-        PopupboxManager.open({ content })
+        PopupboxManager.open({ 
+            content,
+            config: {
+                titleBar: {
+                    enable: true,
+                    text: "Netflix Clone Project "
+                },
+                fadeIn: true,
+                fadeInSpeed: 500
+            } 
+        })
     }
 
-    const popupboxConfigNetflix = {
-        titleBar: {
-            enable: true,
-            text: "Netflix Clone Project "
-        },
-        fadeIn: true,
-        fadeInSpeed: 500
-    }
+    // const popupboxConfigNetflix = {
+    //     titleBar: {
+    //         enable: true,
+    //         text: "Netflix Clone Project "
+    //     },
+    //     fadeIn: true,
+    //     fadeInSpeed: 500
+    // }
    
     // City Guide App 
     const openPopupboxCityGuide = () => {
@@ -86,16 +96,17 @@ const Portfolio = () => {
                 </a>
             </>
         )
-        PopupboxManager.open({ content })
-    }
-
-    const popupboxConfigCityGuide = {
-        titleBar: {
-            enable: true,
-            text: "City Guide Project "
-        },
-        fadeIn: true,
-        fadeInSpeed: 500
+        PopupboxManager.open({ 
+            content,
+            config: {
+                titleBar: {
+                    enable: true,
+                    text: "City Guide Project"
+                },
+                fadeIn: true,
+                fadeInSpeed: 500
+            } 
+        })
     }
     
     // Portfolio Project
@@ -129,16 +140,17 @@ const Portfolio = () => {
                 </a>
             </>
         )
-        PopupboxManager.open({ content })
-    }
-
-    const popupboxPortfolio = {
-        titleBar: {
-            enable: true,
-            text: "Portfolio Project "
-        },
-        fadeIn: true,
-        fadeInSpeed: 500
+        PopupboxManager.open({ 
+            content,
+            config: {
+                titleBar: {
+                    enable: true,
+                    text: "Portfolio Project "
+                },
+                fadeIn: true,
+                fadeInSpeed: 500
+            }
+        })
     }
     
     // Task Manager Project
@@ -172,17 +184,21 @@ const Portfolio = () => {
                 </a>
             </>
         )
-        PopupboxManager.open({ content })
+        PopupboxManager.open({ 
+            content,
+            config: {
+                titleBar: {
+                    enable: true,
+                    text: "Portfolio Project "
+                },
+                fadeIn: true,
+                fadeInSpeed: 500     
+            }
+        })
     }
 
-    const popupboxTaskManager = {
-        titleBar: {
-            enable: true,
-            text: "Portfolio Project "
-        },
-        fadeIn: true,
-        fadeInSpeed: 500
-    }
+    
+        
 
 
 
@@ -217,10 +233,7 @@ const Portfolio = () => {
                     </div>
                 </div>
             </div>
-            <PopupboxContainer {...popupboxConfigNetflix} />
-            <PopupboxContainer {...popupboxConfigCityGuide} />
-            <PopupboxContainer {...popupboxPortfolio} />
-            <PopupboxContainer {...popupboxTaskManager} />
+            <PopupboxContainer />
             {/* <h1 className="text-uppercase text-center py-5">Filmmaker Reel</h1>
             <div className="image-box-wrapper row justify-content-center">
                 <iframe
