@@ -85,7 +85,7 @@ function App() {
       <About />
       <Skills />
       {/* <Links /> */}
-      <Experience />
+      {/* <Experience /> */}
       <Portfolio />
       {/* <Filmmaker /> */}
       <Particles 
