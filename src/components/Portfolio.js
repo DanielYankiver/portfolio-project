@@ -20,7 +20,7 @@ const Portfolio = () => {
                 <img 
                     className="portfolio-image-popupbox" 
                     src={netflix} 
-                    alt="Netflix Clone Project..."
+                    alt="Rocket Fuel Project..."
                 />
                 <p>
                     Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
@@ -60,7 +60,7 @@ const Portfolio = () => {
             config: {
                 titleBar: {
                     enable: true,
-                    text: "Netflix Clone Project "
+                    text: "Rocket Fuel"
                 },
                 fadeIn: true,
                 fadeInSpeed: 500
@@ -68,7 +68,7 @@ const Portfolio = () => {
         })
     }
    
-    // City Guide App 
+    // Yourseum 
     const openPopupboxCityGuide = () => {
         const content = (
             <>
@@ -82,21 +82,32 @@ const Portfolio = () => {
                     Quasi ipsa sint quis. Iure velit incidunt corporis alias 
                     aliquam repudiandae? Sed.
                 </p>
-                <b>Demo: </b> 
-                <a 
-                    className="hyper-link" 
-                    onClick={() => window.open("https://github.com/DanielYankiver/rocket-fuel-frontend", "_blank")}
-                >
-                    https://github.com/DanielYankiver/rocket-fuel-frontend
-                </a>
-                <br/>
-                <b>Github: </b> 
-                <a 
-                    className="hyper-link" 
-                    onClick={() => window.open("https://github.com/DanielYankiver/rocket-fuel-frontend", "_blank")}
-                >
-                    https://github.com/DanielYankiver/rocket-fuel-frontend
-                </a>
+                <div className="popup-icons">
+                    <div className="hyper-link" onClick={() => window.open("https://github.com/DanielYankiver/rocket-fuel-frontend", "_blank")}>
+                        <div className="popup-links">
+                            <FontAwesomeIcon className="popup-icon" icon={faLaptopCode} />
+                            Live Site
+                        </div>
+                    </div>
+                    <div className="hyper-link" onClick={() => window.open("https://www.youtube.com/watch?v=k1HXlsCTqyE", "_blank")}>
+                        <div className="popup-links">
+                            <FontAwesomeIcon className="popup-icon" icon={faPlayCircle} />
+                            Demo
+                        </div>
+                    </div>
+                    <div className="hyper-link" onClick={() => window.open("https://github.com/DanielYankiver/rocket-fuel-frontend", "_blank")}>
+                        <div className="popup-links">
+                            <FontAwesomeIcon className="popup-icon" icon={faGithub} />
+                            Frontend
+                        </div>
+                    </div>
+                    <div className="hyper-link" onClick={() => window.open("https://github.com/DanielYankiver/rocket-fuel-backend" , "_blank")}>
+                        <div className="popup-links">
+                            <FontAwesomeIcon className="popup-icon" icon={faGithub} />
+                            Backend
+                        </div>
+                    </div>
+                </div>
             </>
         )
         PopupboxManager.open({ 
@@ -126,21 +137,32 @@ const Portfolio = () => {
                     Quasi ipsa sint quis. Iure velit incidunt corporis alias 
                     aliquam repudiandae? Sed.
                 </p>
-                <b>Demo: </b> 
-                <a 
-                    className="hyper-link" 
-                    onClick={() => window.open("https://github.com/DanielYankiver/rocket-fuel-frontend", "_blank")}
-                >
-                    https://github.com/DanielYankiver/rocket-fuel-frontend
-                </a>
-                <br/>
-                <b>Github: </b> 
-                <a 
-                    className="hyper-link" 
-                    onClick={() => window.open("https://github.com/DanielYankiver/rocket-fuel-frontend", "_blank")}
-                >
-                    https://github.com/DanielYankiver/rocket-fuel-frontend
-                </a>
+                <div className="popup-icons">
+                    <div className="hyper-link" onClick={() => window.open("https://github.com/DanielYankiver/rocket-fuel-frontend", "_blank")}>
+                        <div className="popup-links">
+                            <FontAwesomeIcon className="popup-icon" icon={faLaptopCode} />
+                            Live Site
+                        </div>
+                    </div>
+                    <div className="hyper-link" onClick={() => window.open("https://www.youtube.com/watch?v=k1HXlsCTqyE", "_blank")}>
+                        <div className="popup-links">
+                            <FontAwesomeIcon className="popup-icon" icon={faPlayCircle} />
+                            Demo
+                        </div>
+                    </div>
+                    <div className="hyper-link" onClick={() => window.open("https://github.com/DanielYankiver/rocket-fuel-frontend", "_blank")}>
+                        <div className="popup-links">
+                            <FontAwesomeIcon className="popup-icon" icon={faGithub} />
+                            Frontend
+                        </div>
+                    </div>
+                    <div className="hyper-link" onClick={() => window.open("https://github.com/DanielYankiver/rocket-fuel-backend" , "_blank")}>
+                        <div className="popup-links">
+                            <FontAwesomeIcon className="popup-icon" icon={faGithub} />
+                            Backend
+                        </div>
+                    </div>
+                </div>
             </>
         )
         PopupboxManager.open({ 
@@ -170,21 +192,32 @@ const Portfolio = () => {
                     Quasi ipsa sint quis. Iure velit incidunt corporis alias 
                     aliquam repudiandae? Sed.
                 </p>
-                <b>Demo: </b> 
-                <a 
-                    className="hyper-link" 
-                    onClick={() => window.open("https://github.com/DanielYankiver/rocket-fuel-frontend", "_blank")}
-                >
-                    https://github.com/DanielYankiver/rocket-fuel-frontend
-                </a>
-                <br/>
-                <b>Github: </b> 
-                <a 
-                    className="hyper-link" 
-                    onClick={() => window.open("https://github.com/DanielYankiver/rocket-fuel-frontend", "_blank")}
-                >
-                    https://github.com/DanielYankiver/rocket-fuel-frontend
-                </a>
+                <div className="popup-icons">
+                    <div className="hyper-link" onClick={() => window.open("https://github.com/DanielYankiver/rocket-fuel-frontend", "_blank")}>
+                        <div className="popup-links">
+                            <FontAwesomeIcon className="popup-icon" icon={faLaptopCode} />
+                            Live Site
+                        </div>
+                    </div>
+                    <div className="hyper-link" onClick={() => window.open("https://www.youtube.com/watch?v=k1HXlsCTqyE", "_blank")}>
+                        <div className="popup-links">
+                            <FontAwesomeIcon className="popup-icon" icon={faPlayCircle} />
+                            Demo
+                        </div>
+                    </div>
+                    <div className="hyper-link" onClick={() => window.open("https://github.com/DanielYankiver/rocket-fuel-frontend", "_blank")}>
+                        <div className="popup-links">
+                            <FontAwesomeIcon className="popup-icon" icon={faGithub} />
+                            Frontend
+                        </div>
+                    </div>
+                    <div className="hyper-link" onClick={() => window.open("https://github.com/DanielYankiver/rocket-fuel-backend" , "_blank")}>
+                        <div className="popup-links">
+                            <FontAwesomeIcon className="popup-icon" icon={faGithub} />
+                            Backend
+                        </div>
+                    </div>
+                </div>
             </>
         )
         PopupboxManager.open({ 
