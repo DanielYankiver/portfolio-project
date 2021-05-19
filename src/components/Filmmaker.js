@@ -4,7 +4,7 @@ import { SiVimeo } from 'react-icons/si';
 const Filmmaker = () => {
     return (
         <div id="filmmaker" className="filmmaker-wrapper">
-            <h1 className="text-uppercase text-center py-5">Filmmaker Reel</h1>
+            <h3 className="text-uppercase text-center py-5">Filmmaker</h3>
             <div className="image-box-wrapper row justify-content-center">
                 <iframe
                     className="reel" 

@@ -222,7 +222,8 @@ const Portfolio = () => {
     return (
         <div id="portfolio" className="portfolio-wrapper">
             <div className="container">
-                <h1 className="text-uppercase text-center py-5">software engineer</h1>
+                <h1 className="text-uppercase text-center py-5">portfolio</h1>
+                <h3 className="text-uppercase text-center py-5">software engineer</h3>
                 <div className="image-box-wrapper row justify-content-center">
                     <div className="portfolio-image-box" onClick={openPopupBoxRocketFuel}>
                         <img className="portfolio-image" src={rocketfuel} alt="Rocket Fuel..." />
