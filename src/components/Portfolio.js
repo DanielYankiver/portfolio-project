@@ -4,15 +4,16 @@ import cityGuide from "../images/city-guide-app.png";
 import portfolio from "../images/portfolio.png";
 import taskManager from "../images/task-manager.png";
 // FONTAWESOME IMPORTS 
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faSearchPlus } from "@fortawesome/free-solid-svg-icons"
+import { FontAwesomeIcon} from "@fortawesome/react-fontawesome";
+import { faSearchPlus, faLaptopCode, faPlayCircle } from "@fortawesome/free-solid-svg-icons"
+import { faGithub } from "@fortawesome/free-brands-svg-icons"
 // REACT POPUPBOX
 import {PopupboxManager, PopupboxContainer} from "react-popupbox"
 import "react-popupbox/dist/react-popupbox.css"
 
 const Portfolio = () => {
 
-    // Netflix
+    // Rocket Fuel
     const openPopupboxNetflix = () => {
         const content = (
             <>
@@ -26,21 +27,32 @@ const Portfolio = () => {
                     Quasi ipsa sint quis. Iure velit incidunt corporis alias 
                     aliquam repudiandae? Sed.
                 </p>
-                <b>Demo: </b> 
-                <a 
-                    className="hyper-link" 
-                    onClick={() => window.open("https://github.com/DanielYankiver/rocket-fuel-frontend", "_blank")}
-                >
-                    https://github.com/DanielYankiver/rocket-fuel-frontend
-                </a>
-                <br/>
-                <b>Github: </b> 
-                <a 
-                    className="hyper-link" 
-                    onClick={() => window.open("https://github.com/DanielYankiver/rocket-fuel-frontend", "_blank")}
-                >
-                    https://github.com/DanielYankiver/rocket-fuel-frontend
-                </a>
+                <div className="popup-icons">
+                    <div className="hyper-link" onClick={() => window.open("https://github.com/DanielYankiver/rocket-fuel-frontend", "_blank")}>
+                        <div className="popup-links">
+                            <FontAwesomeIcon className="popup-icon" icon={faLaptopCode} />
+                            Live Site
+                        </div>
+                    </div>
+                    <div className="hyper-link" onClick={() => window.open("https://www.youtube.com/watch?v=k1HXlsCTqyE", "_blank")}>
+                        <div className="popup-links">
+                            <FontAwesomeIcon className="popup-icon" icon={faPlayCircle} />
+                            Demo
+                        </div>
+                    </div>
+                    <div className="hyper-link" onClick={() => window.open("https://github.com/DanielYankiver/rocket-fuel-frontend", "_blank")}>
+                        <div className="popup-links">
+                            <FontAwesomeIcon className="popup-icon" icon={faGithub} />
+                            Frontend
+                        </div>
+                    </div>
+                    <div className="hyper-link" onClick={() => window.open("https://github.com/DanielYankiver/rocket-fuel-backend" , "_blank")}>
+                        <div className="popup-links">
+                            <FontAwesomeIcon className="popup-icon" icon={faGithub} />
+                            Backend
+                        </div>
+                    </div>
+                </div>
             </>
         )
         PopupboxManager.open({ 
@@ -55,15 +67,6 @@ const Portfolio = () => {
             } 
         })
     }
-
-    // const popupboxConfigNetflix = {
-    //     titleBar: {
-    //         enable: true,
-    //         text: "Netflix Clone Project "
-    //     },
-    //     fadeIn: true,
-    //     fadeInSpeed: 500
-    // }
    
     // City Guide App 
     const openPopupboxCityGuide = () => {
