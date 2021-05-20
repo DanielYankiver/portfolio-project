@@ -1239,12 +1239,12 @@ textarea.form-control {
 
 .footer a {
   text-decoration: none;
-  color: var(--primary-dark-grey);
+  color: var(--dark-mode-green);
 }
 
 .footer a:hover {
   text-decoration: none;
-  color: var(--secondary-text-white);
+  color: var(--dark-mode-turquoise);
   cursor: pointer;
 }
 
