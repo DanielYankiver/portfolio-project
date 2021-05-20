@@ -4,13 +4,13 @@ import Particles from "react-particles-js";
 import Navbar from './components/Navbar';
 import Header from './components/Header';
 import About from './components/About';
-// import Links from './components/Links';
-// import Experience from './components/Experience';
 import Portfolio from './components/Portfolio';
-// import Filmmaker from './components/Filmmaker';
 import Skills from './components/Skills';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
+// import Links from './components/Links';
+// import Experience from './components/Experience';
+// import Filmmaker from './components/Filmmaker';
 // import { faBullseye } from '@fortawesome/free-solid-svg-icons';
 
 function App() {
@@ -85,11 +85,11 @@ function App() {
       <About />
       <Portfolio />
       <Skills />
+      <Contact />
+      <Footer />
       {/* <Links /> */}
       {/* <Experience /> */}
       {/* <Filmmaker /> */}
-      <Contact />
-      <Footer />
     </>
   );
 }
