@@ -1,5 +1,4 @@
 import React from 'react'
-import { SiVimeo } from 'react-icons/si';
 
 const Filmmaker = () => {
     return (
@@ -8,12 +7,13 @@ const Filmmaker = () => {
             <div className="image-box-wrapper row justify-content-center">
                 <iframe
                     className="reel" 
+                    title="reel"
                     src="https://player.vimeo.com/video/375538495" 
                     width="400" 
                     height="180" 
                     frameborder="0" 
                     allow="autoplay; fullscreen" 
-                    allowfullscreen
+                    allowFullScreen
                 >
                 </iframe>
             </div>

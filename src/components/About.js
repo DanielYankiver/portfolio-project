@@ -1,8 +1,8 @@
 import React from "react";
 import headshot from "../my-photo.jpg";
-import LinksCarousel from "./LinksCarousel";
-import { FaReact } from 'react-icons/fa';
-import { SiJavascript, SiRails, SiCss3, SiRuby, SiHtml5, SiAdobepremiere, SiAdobephotoshop } from 'react-icons/si';
+// import LinksCarousel from "./LinksCarousel";
+// import { FaReact } from 'react-icons/fa';
+// import { SiJavascript, SiRails, SiCss3, SiRuby, SiHtml5, SiAdobepremiere, SiAdobephotoshop } from 'react-icons/si';
 
 
 const About = () => {

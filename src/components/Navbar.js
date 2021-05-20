@@ -1,5 +1,5 @@
 import React from "react";
-import logo from "../logo.png";
+// import logo from "../logo.png";
 import minLogo from "../dy-minimal-labyrinth-logo.png"
 import {Link} from "react-scroll";
 // REACT FONT AWESOME IMPORT
@@ -49,7 +49,7 @@ const Navbar = () => {
                     </ul>
                 </div>
                 <div className="resume">
-                    <a className="resume-a"href={Resume} target="_blank">Resume</a>
+                    <a className="resume-a"href={Resume} target="_blank" rel="noReferrer">Resume</a>
                 </div>
             </div>
         </nav>

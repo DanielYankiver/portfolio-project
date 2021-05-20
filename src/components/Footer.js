@@ -1,15 +1,4 @@
 import React from 'react'
-import {
-    FacebookShareButton,
-    FacebookIcon,
-    TwitterShareButton,
-    TwitterIcon,
-    RedditShareButton,
-    RedditIcon,
-    LinkedinShareButton,
-    LinkedinIcon  
-} from "react-share"
-
 import { SiLinkedin, SiGithub, SiMedium, SiVimeo } from 'react-icons/si';
 import minLogo from "../dy-minimal-labyrinth-logo.png"
 import {Link} from "react-scroll";
@@ -43,16 +32,16 @@ const Footer = () => {
                     </div> */}
                     <div className="col-lg-5 col-md-5 col-sm-6 align-items-center">
                         <div className="d-flex justify-content-center">
-                                <a href="https://www.linkedin.com/in/daniel-yankiver/" target="_blank">
+                                <a href="https://www.linkedin.com/in/daniel-yankiver/" target="_blank" rel="noReferrer">
                                     <h3><SiLinkedin className="social-links" /></h3>
                                 </a>
-                                <a href="https://github.com/DanielYankiver" target="_blank">
+                                <a href="https://github.com/DanielYankiver" target="_blank" rel="noReferrer">
                                     <h3><SiGithub className="social-links" /></h3>
                                 </a>
-                                <a href="https://danielyankiver.medium.com/" target="_blank">
+                                <a href="https://danielyankiver.medium.com/" target="_blank" rel="noReferrer">
                                     <h3><SiMedium className="social-links" /></h3>
                                 </a>
-                                <a href="https://vimeo.com/danielyankiver" target="_blank">
+                                <a href="https://vimeo.com/danielyankiver" target="_blank" rel="noReferrer">
                                     <h3><SiVimeo className="social-links" /></h3>
                                 </a>
                         </div>

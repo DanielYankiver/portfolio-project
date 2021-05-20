@@ -4,14 +4,14 @@ import Particles from "react-particles-js";
 import Navbar from './components/Navbar';
 import Header from './components/Header';
 import About from './components/About';
-import Links from './components/Links';
-import Experience from './components/Experience';
+// import Links from './components/Links';
+// import Experience from './components/Experience';
 import Portfolio from './components/Portfolio';
-import Filmmaker from './components/Filmmaker';
+// import Filmmaker from './components/Filmmaker';
 import Skills from './components/Skills';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
-import { faBullseye } from '@fortawesome/free-solid-svg-icons';
+// import { faBullseye } from '@fortawesome/free-solid-svg-icons';
 
 function App() {
   return (
@@ -98,7 +98,7 @@ export default App;
 
 // PARTICLE BUBBLES 
 
-{/* <Particles 
+/* <Particles 
         className="particles-bubbles"
         params={{
           particles: {
@@ -127,11 +127,11 @@ export default App;
               }
           },
           
-      }}  */}
+      }}  */
 
 // PARTICLES SPACE
 
-{/* <Particles
+/* <Particles
         className="particles-space" 
         params={{
           particles: {
@@ -236,11 +236,11 @@ export default App;
           },
           retina_detect: true
         }}
-      /> */}
+      /> */
 
 // PARTICLES POLYGON MASK 
 
-{/* <Particles
+/* <Particles
 params={{
   fps_limit: 28,
   particles: {
@@ -304,5 +304,5 @@ params={{
           }
       }
   }
-}} /> */}
+}} /> */
 
