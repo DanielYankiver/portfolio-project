@@ -11,7 +11,7 @@ const Filmmaker = () => {
                     src="https://player.vimeo.com/video/375538495" 
                     width="400" 
                     height="180" 
-                    frameborder="0" 
+                    frameBorder="0" 
                     allow="autoplay; fullscreen" 
                     allowFullScreen
                 >
