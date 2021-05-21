@@ -1,6 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap');
 
 :root{
+
+  /************ Original Color Pallette **************/
+
   --primary-white: #ffffff;
   --primary-light-grey: #f4f4f4;
   --primary-grey: #ccd1d9;
@@ -13,7 +16,7 @@
   --primary-transparent-black: rgba(0,0,0,0.7);
   --primary-green: green;
 
-  /************ dark mode color pallette **************/
+  /************ Dark Mode Color Pallette **************/
 
   --background-black: #121212;
   --navbar-dark-grey: #181818;
@@ -47,13 +50,11 @@ body{
 nav {
   z-index: 2;
   background: var(--navbar-dark-grey);
-  /* background: var(--primary-black); */
   opacity: 100%;
 }
 
 .logo{
   width: 6rem; 
-  /* width: 55%;  */
 }
 
 /****** MENU LINKS ******/
@@ -120,18 +121,13 @@ nav ul li {
   position: relative;
   background: var(--background-black);
   background: url(DarkMountainRange.jpg) no-repeat;
-  /* background: url(wall-and-laptop-background.jpg) no-repeat; */
-  /* background: url(film-photo-scratch.jpg) no-repeat; */
-  /* background: url(futuristic-galaxy-background-with-neon-laser-grid.jpg) no-repeat; */
   background-size: cover;
   background-position: center;
   height: 100vh;
-  
 }
 
 .main-info {
   display: flex;
-  /* position: absolute; */
   padding-top: 10rem;
   top: 0;
   left: 0;
@@ -201,62 +197,10 @@ nav ul li {
   } */
 }
 
-/****** HEADER CAROUSEL ******/
-
-/* .testimonials-content {
-  text-align: center;
-  max-width: 53.125rem;
-  margin: 0 auto 2rem auto;
-  background: var(--primary-transparent-black)
-}
-
-.myCarousel {
-  color: var(--primary-white);
-  background: transparent;
-  margin-top: -6%;
-  width: 54%;
-  margin-left: auto;
-  margin-right: auto;
-  padding-top: 6%;
-  padding-bottom: 8%;
-  padding-left: 5%;
-  padding-right: 5%;
-  height: 17.875rem;
-}
-
-.myCarousel h3 {
-  color: var(--secondary-text-white);
-  font-weight: 600;
-  text-transform: uppercase;
-}
-
-.myCarousel p {
-  color: var(--primary-grey);
-}
-
-.carousel .slide img {
-  width: 10rem !important;
-  border-radius: 50%;
-}
-
-.carousel .slide {
-  background: transparent !important;
-  height: 100% !important;
-  padding-top: 2rem;
-}
-
-.carousel-root {
-  margin: auto !important;
-  margin-top: 3% !important;
-} */
-
 /********************************* ABOUT PAGE *********************************/
 
 #about {
   background: black;
-  /* background-size: cover;
-  background-position: center; */
-  /* height: 100vh; */
   padding-top: 6rem;
   padding-bottom: 7rem;
 }
@@ -288,22 +232,6 @@ nav ul li {
     width: 10rem;
   }
 }
-
-/* .icons-div {
-  /* display: flex;
-  padding-left: 50%; */
-/* } */ 
-
-/* .icons {
-  /* justify-content: center; */
-/* } */ 
-
-/* .skill-icons {
-  color: var(--dark-mode-green);
-  padding: 1rem;
-} */
-
-
 
 /******** ABOUT CAROUSEL **********/
 
@@ -406,7 +334,6 @@ nav ul li {
 
 .services .icon {
   font-size: 1.4rem;
-  /* color: var(--secondary-text-white); */
   position: absolute;
   top: 50%;
   left: 50%;
@@ -506,62 +433,6 @@ button.btn-links {
   }
 }
 
-/******** LINKS CAROUSEL **********/
-
-/* .carousel {
-    text-align: center;
-    max-width: 20rem;
-    margin: 0 auto 2rem auto;
-    background: var(--body-dark-grey)
-} */
-
-/* .linksCarousel {
-  color: var(--dark-mode-red);
-  background: transparent;
-  margin-top: -6%;
-  width: 54%;
-  margin-left: auto;
-  margin-right: auto;
-  padding-top: 1%;
-  padding-bottom: 8%;
-  padding-left: 5%;
-  padding-right: 5%;
-  height: 11rem;
-} */
-
-/* .linksCarousel h1 {
-  color: var(--dark-mode-red);
-  /* padding-top: 0rem; */
-/* } */ 
-
-/* .linksCarousel h3 {
-  color: var(--dark-mode-red);
-  font-weight: 600;
-  text-transform: uppercase;
-} */
-
-/* .linksCarousel p {
-  color: var(--dark-mode-red);
-}
-
-
-.carousel .slide {
-  width: 10rem !important;
-  border-radius: 50%;
-}
-
-.carousel .slide {
-  background: transparent !important;
-  height: 100% !important;
-  padding-top: 2rem;
-} */
-
-/* .carousel-root {
-  margin: auto !important;
-  /* margin-top: 3% !important; */
-/* } */ 
-
-
 /********************************* EXPERIENCE *********************************/
 
 .experience {
@@ -639,13 +510,11 @@ button.btn-links {
 
 .timeline-content h6 {
   margin-top: 0.3125rem;
-  /* color: var(--secondary-text-white); */
   font-weight: 900;
 }
 
 .timeline-content p {
   margin-top: 0.3125rem;
-  /* color: var(--secondary-text-white); */
   font-weight: 900;
 }
 
@@ -675,7 +544,6 @@ button.btn-links {
 .portfolio-wrapper {
   background: var(--navbar-dark-grey);
   position: relative;
-  /* padding: 3rem 0; */
   padding-bottom: 6rem;
 }
 
@@ -705,7 +573,6 @@ button.btn-links {
 .portfolio-wrapper .py-5 {
   padding: 1.5rem!important;
 }
-
 
 #portfolio-overlap {
   margin-left: -353px;
@@ -882,7 +749,7 @@ button.btn-links {
   line-height: 80%;
 }
 
-/* WIDTH */
+/**** WIDTH ****/
 
 @media(max-width: 1050px){
 
@@ -921,7 +788,7 @@ button.btn-links {
 }
 
 
-/* HEIGHT */
+/**** HEIGHT ****/
 
 @media(max-height: 640px){
   .popupbox-wrapper{
@@ -954,62 +821,13 @@ button.btn-links {
 }
 
 
-/****** OVERFLOW BOX ******/
 
-/* .popupbox-titleBar{
-  background: var(--navbar-dark-grey);
-}
-
-.portfolio-image-popupbox {
-  width: 45rem;
-  padding: 0 0.5rem;
-}
-
-.hyper-link {
-  cursor: pointer;
-  color: var(--dark-mode-green)
-}
-
-.hyper-link:hover {
-  color: var(--primary-red)
-} */
-
-/****** MEDIA  ******/
-
-/* @media(max-width: 768px) {
-  .portfolio-image-popupbox {
-    width: 100%;
-  }
-}
-
-@media(max-height: 570px) {
-  .popupbox-wrapper {
-    height: 100%;
-  }
-  .portfolio-image-popupbox {
-    width: 50%;
-  }
-}
-
-@media(max-height: 280px) {
-  .popupbox-wrapper {
-    height: 90%;
-  }
-  .portfolio-image-popupbox {
-    width: 30%;
-  }
-} */
-
-/********************************* FILMMKAER *********************************/
+/***************************** FILMMAKER COMPONENT *********************************/
 
 .filmmaker-wrapper {
   background: var(--navbar-dark-grey);
-  /* background: url(filmgrain.gif); */
   background-size: cover;
   background-position: center;
-  /* height: 70vh;
-  padding: 3rem 0; */
-  /* display: flex; */
   padding-bottom: 2rem;
 }
 
@@ -1020,16 +838,8 @@ button.btn-links {
   margin: 0rem !important;
 }
 
-
-.reel {
-  /* width: 30rem; */
-  /* border: .1rem solid var(--dark-mode-green);
-  padding: 0 0.3rem; */
-}
 /********************************* SKILLS *********************************/
 
-
- 
 .testimonials {
   /* background-image: url(dark-wall-of-code.jpg); */
   background-size: cover;
@@ -1059,10 +869,8 @@ button.btn-links {
   color: var(--dark-mode-green);
   background: transparent;
   margin-top: -6%;
-  /* width: 54%; */
   margin-left: auto;
   margin-right: auto;
-  /* padding-top: 1%; */
   padding-bottom: 55%;
   padding-left: 5%;
   padding-right: 5%;
@@ -1121,8 +929,6 @@ button.btn-links {
   color: var(--dark-mode-green);
   font-size: 1.2rem;
 }
-
-
 
 /****** INPUTS  ******/
 
