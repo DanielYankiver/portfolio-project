@@ -296,7 +296,7 @@ nav ul li {
   padding-bottom: 0rem;
   background: var(--body-dark-grey);
   padding-top: 0rem;
-  /* background: url(space.jpg); */
+  /* background: url(water.jpg); */
   background-size: cover;
   background-position: center;
   /* height: 165vh; */
@@ -841,7 +841,7 @@ button.btn-links {
 /********************************* SKILLS *********************************/
 
 .testimonials {
-  /* background-image: url(dark-wall-of-code.jpg); */
+  /* background-image: url(water.jpg); */
   background-size: cover;
   background-color: var(--body-dark-grey);
   text-align: center;
