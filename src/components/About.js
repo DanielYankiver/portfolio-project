@@ -18,12 +18,18 @@ const About = () => {
                <div className="col-lg-6 col-xm-12">
                    <h1 className="about-heading">about me</h1>
                    <p className="p-about">
-                       Full-stack web developer with experience building 
-                       applications with React, Javascript, Ruby, Rails, SQL databases, 
-                       CSS, HTML and RESTful API architecture. Innovative thinker with 
-                       a background in Film and TV Production. Programmer with strong 
-                       skills in team-building, project management, debugging, and code 
-                       optimization. Software Engineer with projects that incorporate 
+                       Hi, I'm Daniel! I'm a creative software engineer with 
+                       experience building applications with React, Javascript, Ruby, 
+                       Rails, SQL databases, CSS, HTML and RESTful API architecture. 
+                   </p>
+                   <p className="p-about">
+                       I'm an innovative thinker with a background in Film and TV Production. 
+                       I was an independent filmmaker for over 10 years before I decided to 
+                       learn how to code.
+                   </p> 
+                   <p className="p-about">
+                       My other skills include team-building, project management, 
+                       debugging, and code optimization. My projects incorporate 
                        front-end and back-end development with robust user interfaces 
                        (UI) that use efficient code to solve real-world problems.
                    </p>

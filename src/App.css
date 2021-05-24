@@ -50,7 +50,7 @@ body{
 nav {
   z-index: 2;
   background: var(--navbar-dark-grey);
-  opacity: 100%;
+  /* opacity: 100%; */
 }
 
 .logo{
