@@ -409,7 +409,7 @@ button.btn-links {
   text-decoration: none;
   background-color: var(--body-light-grey);
   color: var(--secondary-text-white);
-  /* transition: .2s ease-in-out; */
+  transition: .2s ease-in-out;
 }
 
 /******** LINKS SKILLS ICONS **********/
