@@ -24,15 +24,12 @@ const About = () => {
                    </p>
                    <p className="p-about">
                        I'm an innovative thinker with a background in Film and TV Production. 
-                       I was an independent filmmaker for over 10 years before I decided to 
-                       learn how to code.
-                   </p> 
-                   <p className="p-about">
                        My other skills include team-building, project management, 
                        debugging, and code optimization. My projects incorporate 
                        front-end and back-end development with robust user interfaces 
-                       (UI) that use efficient code to solve real-world problems.
-                   </p>
+                       (UI) that use efficient code to solve real-world problems    
+                   </p> 
+               
                    {/* <LinksCarousel className="about-carousel"/> */}
                </div>
                {/* <div className="icon-div" className="row">
