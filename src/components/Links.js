@@ -59,7 +59,7 @@ const Links = () => {
                         {/* - */}
                         <div className="col-lg-3 col-md-6 col-sm-6"> 
                             <div className="box">
-                                <a href="http://www.danielyankiver.com" target="_blank" rel="noReferrer">
+                                <a href="http://www.danielyankiver.video" target="_blank" rel="noReferrer">
                                     <div className="links-div">
                                         <div className="circle">
                                             <FontAwesomeIcon className="icon" icon={faVideo} size="2x" />
