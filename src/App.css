@@ -678,7 +678,7 @@ button.btn-links {
 .popupbox-titleBar{
   padding-top: 1px !important;
   padding-bottom: 1px !important;
-  background-color: var(--body-light-grey);
+  background-color: var(--body-dark-grey);
   color: var(--dark-mode-green);
 }
 
@@ -718,7 +718,7 @@ button.btn-links {
 
 .hyper-link {
   cursor: pointer;
-  color: var(--dark-mode-red);
+  color: var(--dark-mode-green);
   margin: 0 1rem;
   font-size: 1rem;
 }
@@ -742,7 +742,7 @@ button.btn-links {
 
 .popup-icon {
   margin-right: .25rem;
-  color: var(--dark-mode-red);
+  color: var(--dark-mode-green);
 }
 
 .popup-links span{
