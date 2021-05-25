@@ -7,7 +7,7 @@ import { faVideo } from "@fortawesome/free-solid-svg-icons"
 const Links = () => {
 
     return (
-        <div id="services" className="services">
+        <div id="links" className="links">
             {/* <h1 className="py-5">Links</h1> */}
                 <div className="container">
                     <div className="row">

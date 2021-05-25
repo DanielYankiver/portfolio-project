@@ -5,10 +5,10 @@ import SkillsCarousel from "./SkillsCarousel"
 const Skills = () => {
     return (
         <div>
-        <div id="testimonials" className="testimonials">
+        <div id="skills" className="skills">
             <h1>Skills & Links</h1>
             <div className="container">
-                <div className="testimonials-content">
+                <div className="skills-content">
                     <SkillsCarousel />
                 </div>
             </div>
