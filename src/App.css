@@ -550,6 +550,9 @@ button.btn-links {
 
 /********************************* PORTFOLIO *********************************/
 
+div#portfolio{
+  padding-top: 2rem;
+}
 .portfolio-wrapper {
   background: var(--navbar-dark-grey);
   position: relative;
@@ -854,7 +857,7 @@ button.btn-links {
   background-size: cover;
   background-color: var(--body-dark-grey);
   text-align: center;
-  padding-top: 1rem;
+  padding-top: 2rem;
   padding-bottom: 1rem;
   margin-bottom: 0;
   width: 100%;
