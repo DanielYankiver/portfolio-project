@@ -354,7 +354,7 @@ nav ul li {
   background: var(--dark-mode-green);
   border-bottom: 0.3125rem solid  var(--body-dark-grey);
   cursor: pointer;
-  opacity: 75%;
+  /* opacity: 75%; */
 }
 
 .services .box:hover .icon {
