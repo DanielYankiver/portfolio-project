@@ -2,16 +2,9 @@ import React from 'react'
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faLinkedinIn, faGithub, faMediumM } from "@fortawesome/free-brands-svg-icons"
 import { faVideo } from "@fortawesome/free-solid-svg-icons"
-// import { Link } from "react-scroll";
-// import LinksCarousel from "./LinksCarousel";
-// import { FaReact } from 'react-icons/fa';
-// import { SiJavascript, SiRails, SiCss3, SiRuby, SiHtml5, SiAdobepremiere, SiAdobephotoshop } from 'react-icons/si';
 
 
 const Links = () => {
-
-
-
 
     return (
         <div id="services" className="services">
@@ -71,44 +64,6 @@ const Links = () => {
                         </div>
                     </div>
                 </div>
-            {/* <div className="carousel">
-                <LinksCarousel />
-            </div> */}
-                {/* <div className="skils-icons" className="d-flex justify-content-center">
-                    <div className="skills-icons">
-                        <h1><FaReact /></h1>
-                        <h5>React</h5>
-                    </div>
-                    <div className="skills-icons">
-                        <h1><SiJavascript /></h1>
-                        <h5>Javascript</h5>
-                    </div>
-                    <div className="skills-icons">
-                        <h1><SiRuby /></h1>
-                        <h5>Ruby</h5>
-                    </div>
-                    <div className="skills-icons">
-                        <h1><SiRails /></h1>
-                        <h5>Ruby on Rails</h5>
-                    </div>
-                    <div className="skills-icons">
-                        <h1><SiCss3 /></h1>
-                        <h5>CSS</h5>
-                    </div>
-                    <div className="skills-icons">
-                        <h1><SiHtml5 /></h1>
-                        <h5>HTML</h5>
-                    </div>
-                    <div className="skills-icons">
-                        <h1><SiAdobepremiere /></h1>
-                        <h5>Adobe Premiere</h5>
-                    </div>
-                    <div className="skills-icons">
-                        <h1><SiAdobephotoshop /></h1>
-                        <h5>Adobe Photoshop</h5>
-                    </div>
-                </div> */}
-                
         </div>  
     )
 }
