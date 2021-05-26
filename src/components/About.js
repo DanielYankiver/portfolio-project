@@ -20,14 +20,14 @@ const About = () => {
                    <p className="p-about">
                        Hi, I'm Daniel! I'm a creative software engineer with 
                        experience building applications with React, Javascript, Ruby, 
-                       Rails, SQL databases, CSS, HTML and RESTful API architecture. 
+                       Rails, CSS, HTML and with RESTful API architecture. 
                    </p>
                    <p className="p-about">
                        I'm an innovative thinker with a background in Film and TV Production. 
                        My other skills include team-building, project management, 
                        debugging, and code optimization. My projects incorporate 
                        front-end and back-end development with robust user interfaces 
-                       (UI) that use efficient code to solve real-world problems    
+                       (UI) that use efficient code to solve real-world problems.    
                    </p> 
                
                    {/* <LinksCarousel className="about-carousel"/> */}
