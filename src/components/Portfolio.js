@@ -176,8 +176,8 @@ const Portfolio = () => {
             <>
                 <img 
                     className="portfolio-image-popupbox" 
-                    src={iQueue} 
-                    alt="iQueue..."
+                    src={friendSend} 
+                    alt="FriendSend..."
                 />
                 <p>
                     Schedule texts to friends and family on their birthday 
@@ -205,18 +205,13 @@ const Portfolio = () => {
             config: {
                 titleBar: {
                     enable: true,
-                    text: "Portfolio Project "
+                    text: "Friend Send"
                 },
                 fadeIn: true,
                 fadeInSpeed: 500     
             }
         })
     }
-
-    
-        
-
-
 
 
     return (
@@ -238,13 +233,13 @@ const Portfolio = () => {
                     </div>
                     {/* - */}
                     <div className="portfolio-image-box" onClick={openPopupboxIQueue}>
-                        <img className="portfolio-image" src={iQueue} alt="Portfolio Project..." />
+                        <img className="portfolio-image" src={iQueue} alt="iQueue..." />
                         <div className="overflow"></div>
                         <FontAwesomeIcon className="portfolio-icon" icon={faSearchPlus} />
                     </div>
                     {/* - */}
                     <div className="portfolio-image-box" onClick={openPopupboxFriendSend}>
-                        <img className="portfolio-image" src={friendSend} alt="Task Manager React and Redux Project..." />
+                        <img className="portfolio-image" src={friendSend} alt="Friend Send..." />
                         <div className="overflow"></div>
                         <FontAwesomeIcon className="portfolio-icon" icon={faSearchPlus} />
                     </div>
