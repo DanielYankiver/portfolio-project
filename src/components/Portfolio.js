@@ -31,7 +31,7 @@ const Portfolio = () => {
                     <div className="hyper-link" onClick={() => window.open("https://rocket-fuel.netlify.app/", "_blank")}>
                         <div className="popup-links">
                             <FontAwesomeIcon className="popup-icon" icon={faLaptopCode} />
-                            Live Site
+                            Website
                         </div>
                     </div>
                     <div className="hyper-link" onClick={() => window.open("https://www.youtube.com/watch?v=k1HXlsCTqyE", "_blank")}>
@@ -85,7 +85,7 @@ const Portfolio = () => {
                     <div className="hyper-link" onClick={() => window.open("https://yourseum.netlify.app/", "_blank")}>
                         <div className="popup-links">
                             <FontAwesomeIcon className="popup-icon" icon={faLaptopCode} />
-                            Live Site
+                            Website
                         </div>
                     </div>
                     <div className="hyper-link" onClick={() => window.open("https://www.youtube.com/watch?v=7yLNN42_IxE", "_blank")}>
@@ -252,19 +252,6 @@ const Portfolio = () => {
             </div>
             <PopupboxContainer />
             <Filmmaker />
-            {/* <h1 className="text-uppercase text-center py-5">Filmmaker Reel</h1>
-            <div className="image-box-wrapper row justify-content-center">
-                <iframe
-                    className="reel" 
-                    src="https://player.vimeo.com/video/375538495" 
-                    // width="400" 
-                    // height="180" 
-                    frameBorder="0" 
-                    allow="autoplay; fullscreen" 
-                    allowFullScreen
-                >
-                </iframe>
-            </div> */}
         </div>
     )
 }
