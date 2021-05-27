@@ -20,7 +20,7 @@ const About = () => {
                    <p className="p-about">
                        Hi, I'm Daniel! I'm a creative software engineer with 
                        experience building applications with React, Javascript, Ruby, 
-                       Rails, CSS, HTML and with RESTful API architecture. 
+                       Rails, CSS, HTML, Node.js and RESTful API architecture. 
                    </p>
                    <p className="p-about">
                        I'm an innovative thinker with a background in Film and TV Production. 
