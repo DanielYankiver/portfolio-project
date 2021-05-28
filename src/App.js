@@ -8,10 +8,6 @@ import Portfolio from './components/Portfolio';
 import Skills from './components/Skills';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
-// import Links from './components/Links';
-// import Experience from './components/Experience';
-// import Filmmaker from './components/Filmmaker';
-// import { faBullseye } from '@fortawesome/free-solid-svg-icons';
 
 function App() {
   return (

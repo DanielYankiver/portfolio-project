@@ -820,6 +820,13 @@ button.btn-main-offer.contact-btn {
   color: var(--dark-mode-green);
 }
 
+button.btn-main-offer.contact-btn:hover{
+  text-decoration: none;
+  background-color: var(--dark-mode-green);
+  color: var(--background-black);
+  transition: .2s ease-in-out;
+}
+
 .line {
   position: relative;
   top: -0.8rem;
