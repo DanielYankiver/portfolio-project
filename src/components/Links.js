@@ -12,7 +12,7 @@ const Links = () => {
                 <div className="container">
                     <div className="row">
                         <div className="col-lg-3 col-md-6 col-sm-6"> 
-                            <a href="https://www.linkedin.com/in/daniel-yankiver/" target="_blank" rel="noReferrer"> 
+                            <a href="https://www.linkedin.com/in/daniel-yankiver/" target="_blank" rel="noopener noreferrer"> 
                                 <div className="box">
                                     <div className="links-div">
                                         <div className="circle">
@@ -25,7 +25,7 @@ const Links = () => {
                         </div>
                         {/* - */}
                         <div className="col-lg-3 col-md-6 col-sm-6"> 
-                            <a href="https://github.com/DanielYankiver" target="_blank" rel="noReferrer">
+                            <a href="https://github.com/DanielYankiver" target="_blank" rel="noopener noreferrer">
                                 <div className="box">
                                     <div className="links-div">
                                         <div className="circle">
@@ -38,7 +38,7 @@ const Links = () => {
                         </div>
                         {/* - */}
                         <div className="col-lg-3 col-md-6 col-sm-6">
-                            <a href="https://danielyankiver.medium.com/" target="_blank" rel="noReferrer"> 
+                            <a href="https://danielyankiver.medium.com/" target="_blank" rel="noopener noreferrer"> 
                                 <div className="box">
                                     <div className="links-div">
                                         <div className="circle">
@@ -52,7 +52,7 @@ const Links = () => {
                         {/* - */}
                         <div className="col-lg-3 col-md-6 col-sm-6"> 
                             <div className="box">
-                                <a href="http://www.danielyankiver.video" target="_blank" rel="noReferrer">
+                                <a href="http://www.danielyankiver.video" target="_blank" rel="noopener noreferrer">
                                     <div className="links-div">
                                         <div className="circle">
                                             <FontAwesomeIcon className="icon" icon={faVideo} size="2x" />

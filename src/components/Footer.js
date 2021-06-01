@@ -15,19 +15,19 @@ const Footer = () => {
                     </div>
                     <div className="col-lg-5 col-md-5 col-sm-6 align-items-center">
                         <div className="d-flex justify-content-center">
-                                <a href="https://www.linkedin.com/in/daniel-yankiver/" target="_blank" rel="noReferrer">
+                                <a href="https://www.linkedin.com/in/daniel-yankiver/" target="_blank" rel="noopener noreferrer">
                                     <h3><SiLinkedin className="social-links" /></h3>
                                 </a>
-                                <a href="https://github.com/DanielYankiver" target="_blank" rel="noReferrer">
+                                <a href="https://github.com/DanielYankiver" target="_blank" rel="noopener noreferrer">
                                     <h3><SiGithub className="social-links" /></h3>
                                 </a>
-                                <a href="https://danielyankiver.medium.com/" target="_blank" rel="noReferrer">
+                                <a href="https://danielyankiver.medium.com/" target="_blank" rel="noopener noreferrer">
                                     <h3><SiMedium className="social-links" /></h3>
                                 </a>
-                                <a href="https://vimeo.com/danielyankiver" target="_blank" rel="noReferrer">
+                                <a href="https://vimeo.com/danielyankiver" target="_blank" rel="noopener noreferrer">
                                     <h3><SiVimeo className="social-links" /></h3>
                                 </a>
-                                <a href="http://www.danielyankiver.video/" target="_blank" rel="noReferrer">
+                                <a href="http://www.danielyankiver.video/" target="_blank" rel="noopener noreferrer">
                                     <h3><FaVideo className="social-links" /></h3>
                                 </a>
                         </div>
