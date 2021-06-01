@@ -14,7 +14,7 @@ function App() {
 
   const gaTrackingId = "UA-198376520-1";
   ReactGA.initialize(gaTrackingId);
-  ReactGA.pageView("/");
+  ReactGA.pageview("/");
 
   return (
     <>
