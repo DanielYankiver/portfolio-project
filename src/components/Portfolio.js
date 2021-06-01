@@ -17,7 +17,7 @@ const Portfolio = () => {
     // Rocket Fuel
     const openPopupBoxRocketFuel = () => {
         const content = (
-            <>
+            <div>
                 <img 
                     className="portfolio-image-popupbox" 
                     src={rocketfuel} 
@@ -53,7 +53,7 @@ const Portfolio = () => {
                         </div>
                     </div>
                 </div>
-            </>
+            </div>
         )
         PopupboxManager.open({ 
             content,
@@ -71,7 +71,7 @@ const Portfolio = () => {
     // Yourseum 
     const openPopupboxYourseum = () => {
         const content = (
-            <>
+            <div>
                 <img 
                     className="portfolio-image-popupbox" 
                     src={yourseum} 
@@ -107,7 +107,7 @@ const Portfolio = () => {
                         </div>
                     </div>
                 </div>
-            </>
+            </div>
         )
         PopupboxManager.open({ 
             content,
@@ -125,7 +125,7 @@ const Portfolio = () => {
     // iQueue
     const openPopupboxIQueue = () => {
         const content = (
-            <>
+            <div>
                 <img 
                     className="portfolio-image-popupbox" 
                     src={iQueue} 
@@ -155,7 +155,7 @@ const Portfolio = () => {
                         </div>
                     </div>
                 </div>
-            </>
+            </div>
         )
         PopupboxManager.open({ 
             content,
@@ -173,7 +173,7 @@ const Portfolio = () => {
     // Task Manager Project
     const openPopupboxFriendSend = () => {
         const content = (
-            <>
+            <div>
                 <img 
                     className="portfolio-image-popupbox" 
                     src={friendSend} 
@@ -198,7 +198,7 @@ const Portfolio = () => {
                         </div>
                     </div>
                 </div>
-            </>
+            </div>
         )
         PopupboxManager.open({ 
             content,

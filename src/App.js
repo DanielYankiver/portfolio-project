@@ -1,3 +1,4 @@
+import React from 'react';
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Particles from "react-particles-js";
@@ -8,7 +9,7 @@ import Portfolio from './components/Portfolio';
 import Skills from './components/Skills';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
-import ReactGA from "react-ga";
+import ReactGA from 'react-ga';
 
 function App() {
 
@@ -17,7 +18,7 @@ function App() {
   ReactGA.pageview("/");
 
   return (
-    <>
+    <div>
       <Particles
         className="particles-canvas" 
         params={{
@@ -92,7 +93,7 @@ function App() {
       {/* <Links /> */}
       {/* <Experience /> */}
       {/* <Filmmaker /> */}
-    </>
+    </div>
   );
 }
 
