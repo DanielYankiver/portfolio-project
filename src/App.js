@@ -8,8 +8,14 @@ import Portfolio from './components/Portfolio';
 import Skills from './components/Skills';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
+import ReactGA from "react-ga";
 
 function App() {
+
+  const gaTrackingId = "UA-198376520-1";
+  ReactGA.initialize(gaTrackingId);
+  ReactGA.pageView("/");
+
   return (
     <>
       <Particles
