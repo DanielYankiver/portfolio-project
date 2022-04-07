@@ -19,7 +19,7 @@ function App() {
 
   return (
     <div>
-      <Particles
+      {/* <Particles
         className="particles-canvas" 
         params={{
           particles: {
@@ -82,7 +82,7 @@ function App() {
             }
           }
         }}
-      />
+      /> */}
       <Navbar />
       <Header />
       <About />
