@@ -104,14 +104,15 @@ nav ul li {
 /****** RESUME a LINK ******/
 
 .resume {
-  padding-bottom: .5rem;
+  padding-bottom: 0px;
   padding-left: .5rem;
 }
 
 .resume-a {
   text-decoration: none;
   color: var(--secondary-text-white);
-  border: .03rem solid ;
+  border: 1px solid;
+  border-radius: 5px;
   border-color: var(--secondary-text-white);
   padding: .3rem;
   margin-right: 1.5rem;
