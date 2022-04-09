@@ -54,7 +54,7 @@ nav {
 }
 
 .logo{
-  width: 4rem; 
+  width: 6rem; 
 }
 
 /****** MENU LINKS ******/
@@ -79,7 +79,7 @@ nav ul li {
 .navbar-brand{
   max-width: 17.25rem;
   padding: 0 !important;
-  height: 4rem !important;
+  height: 6rem !important;
 }
 
 @media(max-width: 768px) {
@@ -104,17 +104,17 @@ nav ul li {
 /****** RESUME a LINK ******/
 
 .resume {
-  padding-bottom: 0px;
+  padding-bottom: .5rem;
   padding-left: .5rem;
 }
 
 .resume-a {
   text-decoration: none;
   color: var(--secondary-text-white);
-  border: 1px solid;
-  border-radius: 5px;
+  border: .03rem solid ;
   border-color: var(--secondary-text-white);
-  padding: .3rem;
+  border-radius: 5px;
+  padding: .5rem;
   margin-right: 1.5rem;
 }
 
