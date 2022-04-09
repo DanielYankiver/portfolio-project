@@ -18,18 +18,11 @@ const About = () => {
                <div className="col-lg-6 col-xm-12">
                    <h1 className="about-heading">about me</h1>
                    <p className="p-about">
-                       Hi, I'm Daniel! I'm a creative software engineer with 
-                       experience building applications with React, Javascript, Ruby, 
-                       Rails, CSS, HTML, Node.js and RESTful API architecture. 
+                      I'm a creative software engineer with with experience building applications with Javascript, Typescript, React, Next.js, GraphQL, Node.js, CSS, HTML, Ruby, Rails and RESTful API architecture.
                    </p>
                    <p className="p-about">
-                       I'm an innovative thinker with a background in Film and TV Production. 
-                       My other skills include team-building, project management, 
-                       debugging, and code optimization. My projects incorporate 
-                       front-end and back-end development with robust user interfaces 
-                       (UI) that use efficient code to solve real-world problems.    
+                      Dynamic thinker with a background in Film and TV Production. Programmer with strong skills in team-building, project management, debugging, design, and code optimization. Full-stack developer with projects that incorporate frontend and backend development with robust user interfaces (UI) that use efficient code to solve real-world problems.  
                    </p> 
-               
                    {/* <LinksCarousel className="about-carousel"/> */}
                </div>
                {/* <div className="icon-div" className="row">

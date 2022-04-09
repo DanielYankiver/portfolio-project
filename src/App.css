@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap');
 
+/*** Bring in all fonts below, but have to come through site and change everything: */
+/* @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap'); */
+
+
 :root{
 
   /************ Original Color Pallette **************/
@@ -177,7 +181,7 @@ nav ul li {
 .btn-main-offer {
   border: 1px solid var(--dark-mode-green);
   text-transform: uppercase;
-  border-radius: 0;
+  border-radius: 5px;
   padding: 0.625rem 0.75rem 0.75rem 0.75rem;
   color: var(--dark-mode-green);
   margin: 2rem;
