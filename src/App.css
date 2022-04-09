@@ -290,18 +290,18 @@ div#portfolio{
   color: var(--dark-mode-green);
 }
 
-.portfolio-image{
+.portfolio-image {
   width: 14.5rem;
   height: 8.8rem;
   border: 1px solid var(--dark-mode-green);
   padding: 0;
+  border-radius: 5px;
 }
 
 .portfolio-image-box {
   position: relative;
   margin: 1rem;
 }
-
 
 /****** OVERFLOW BOX ******/
 
@@ -314,6 +314,7 @@ div#portfolio{
   top: 0;
   border: 1px solid var(--dark-mode-turquoise);
   cursor: pointer;
+  border-radius: 5px;
 }
 
 .portfolio-image-box:hover .overflow {
@@ -680,6 +681,7 @@ div#portfolio{
   background: transparent;
   transition: 0.3s ease-in-out;
   border: var(--dark-mode-green) solid 1px;
+  border-radius: 5px;
 }
 
 .links .box:hover {
