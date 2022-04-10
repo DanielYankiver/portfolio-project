@@ -1,7 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap'); */
 
 /*** Bring in all fonts below, but have to come through site and change everything: */
-/* @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
 
 :root{
@@ -58,7 +58,8 @@ nav {
 }
 
 .logo{
-  width: 6rem; 
+  /* width: 6rem;  */
+  width: 100px; 
 }
 
 /****** MENU LINKS ******/
@@ -78,6 +79,8 @@ nav ul li {
   margin-left: 0.75rem;
   color: var(--secondary-text-white) !important;
   border-top: 0.1875rem solid var(var(--navbar-dark-grey));
+  font-size: 17px;
+  font-weight: 500;
 } 
 
 .navbar-brand{
@@ -93,11 +96,13 @@ nav ul li {
 }
 
 .navbar-nav > li > a.active, .navbar-nav > li > a:focus {
-  border-top: 0.1875rem solid var(--secondary-text-white);
+  /* border-top: 0.1875rem solid var(--secondary-text-white); */
+  color: var(--dark-mode-green) !important;
 }
 
 .navbar-nav > li > a:hover{
-  border-top: 0.1875rem solid var(--secondary-text-white);
+  /* border-top: 0.1875rem solid var(--secondary-text-white); */
+  color: var(--dark-mode-green) !important;
 }
 
 .navbar-brand:hover {
@@ -108,18 +113,20 @@ nav ul li {
 /****** RESUME a LINK ******/
 
 .resume {
-  padding-bottom: .5rem;
-  padding-left: .5rem;
+  /* padding-bottom: .5rem;
+  padding-left: .5rem; */
 }
 
 .resume-a {
   text-decoration: none;
   color: var(--secondary-text-white);
-  border: .03rem solid ;
+  border: 2px solid;
   border-color: var(--secondary-text-white);
   border-radius: 5px;
   padding: .5rem;
   margin-right: 1.5rem;
+  font-size: 17px;
+  font-weight: 500;
 }
 
 .resume-a:hover {
@@ -127,6 +134,8 @@ nav ul li {
   color: var(--navbar-dark-grey);
   border-color: var(--secondary-text-white);
   background-color: var(--secondary-text-white);
+  font-size: 17px;
+  font-weight: 600;
 }
  
 /********************************* HEADER *********************************/
