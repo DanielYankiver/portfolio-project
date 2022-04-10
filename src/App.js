@@ -85,10 +85,10 @@ function App() {
       />
       <Navbar />
       <Header />
-      <About />
+      {/* <About /> */}
       <Portfolio />
       <Skills />
-      <Contact />
+      {/* <Contact /> */}
       <Footer />
       {/* <Links /> */}
       {/* <Experience /> */}

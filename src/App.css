@@ -168,6 +168,29 @@ nav ul li {
   text-transform: uppercase;
 }
 
+.photo-wrap-header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 100px;
+  margin-top: 5px;
+}
+
+.header-socials {
+  margin-top: 10px;
+}
+
+.header-wrapper a {
+  color: var(--dark-mode-green);
+  z-index: 2;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.header-wrapper a:hover {
+  color: var(--dark-mode-turquoise);
+}
+
 
 /****** TYPED TEXT ******/
 
@@ -239,6 +262,7 @@ nav ul li {
   border-radius: 50%;
   padding: .3rem;
   border: 1px solid var(--dark-mode-green);
+  z-index: 2;
 }
 
 .about-heading {
