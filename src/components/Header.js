@@ -1,6 +1,6 @@
 import React from "react"
 import Typed from "react-typed"
-import { Link } from "react-scroll";
+// import { Link } from "react-scroll";
 import headshot from "../my-photo.jpg";
 import { SiLinkedin, SiGithub, SiMedium, SiVimeo } from 'react-icons/si';
 import { FaVideo } from 'react-icons/fa';
