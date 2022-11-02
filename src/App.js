@@ -86,7 +86,7 @@ function App() {
       <Navbar />
       <Header />
       {/* <About /> */}
-      <Portfolio />
+      {/* <Portfolio /> */}
       <Skills />
       {/* <Contact /> */}
       <Footer />
