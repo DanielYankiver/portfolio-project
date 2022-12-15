@@ -8,7 +8,6 @@ import { faBars } from "@fortawesome/free-solid-svg-icons"
 //RESUME 
 import Resume from '../Resume.pdf';
 
-
 const Navbar = () => {
     return (
         <nav className="navbar navbar-expand-lg navbar-light fixed-top"> 
